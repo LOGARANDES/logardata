@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-09-04:00">Updated: Remove information about modern town</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-124" source="bib124-1">
+            <place xml:id="place-124" source="bib124-1" type="reduccion">
                <placeName xml:id="name124-1" full="yes" type="standardized">Guanboy</placeName>
                <placeName xml:id="name124-3" type="standardized-Andean">Guanboy</placeName>
                <placeName xml:id="name124-4" type="verbatim">guanboy</placeName>
@@ -63,20 +64,11 @@
                   </region>
                   <settlement type="pueblo">Guanboy</settlement>
                </location>
-               <location type="modern">
-                  <country>Peru</country>
-                  <region type="province">Huaura</region>
-                  <region type="department">Lima</region>
-                  <settlement type="pueblo">Hualmay</settlement>
-               </location>
-               <bibl xml:id="bib124-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">197</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib124-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">197</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/197/mode/2up"/></bibl>
                <bibl xml:id="bib124-3">
                   <title>AGI Lima 464</title>
                </bibl>

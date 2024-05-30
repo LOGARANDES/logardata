@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-40" source="bib40-1">
+            <place xml:id="place-40" source="bib40-1" type="reduccion">
                <placeName xml:id="name40-1" full="yes" type="standardized">Ferriñafe</placeName>
                <placeName xml:id="name40-3" type="standardized-Andean">Ferriñafe</placeName>
                <placeName xml:id="name40-4" type="verbatim">vn pueblo del mesmo nombre</placeName>
@@ -75,14 +75,11 @@
                <location>
                   <geo>-06 38 21.11280 -079 47 16.94040</geo>
                </location>
-               <bibl xml:id="bib40-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">209</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib40-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">209</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/209/mode/2up"/></bibl>
                <bibl xml:id="bib40-3">
                   <title>AGI Lima 464</title>
                </bibl>

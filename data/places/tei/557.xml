@@ -38,14 +38,40 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 557 with administrative information from 292</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name557-1" full="yes" type="standardized" source="#bib1-1">San Xpoval Saco</placeName>
+                    <placeName xml:id="name292-1" full="yes" type="standardized">San Cristobal Saco</placeName>
+                    <placeName xml:id="name292-2" type="standardized-Spanish">San Cristobal</placeName>
+                    <placeName xml:id="name292-3" type="standardized-Andean">Saco</placeName>
+                    <placeName xml:id="name292-4" type="verbatim">san cristoval saco</placeName>
+                    <location type="ancient">
+                        <region type="audiencia">Lima</region>
+                        <region type="ciudad">Arequipa</region>
+                        <region type="corregimiento">Carumas y Ubinas de Colesuyo</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Carumas</placeName>
+                            <placeName type="verbatim">carumas</placeName>
+                        </region>
+                        <settlement type="pueblo">San Cristobal Saco</settlement>
+                    </location>
+                    <location type="modern">
+                        <country>Peru</country>
+                        <region type="province">Carabaya</region>
+                        <region type="department">Puno</region>
+                        <settlement type="pueblo">Saco</settlement>
+                    </location>
+                    <!--
+                    <location>
+                        <geo>-13 56 46.43160 -069 49 51.20760</geo>
+                    </location>
+                    -->
                     <location type="gps">
                         <geo>-16.74026 -70.70600</geo>
                     </location>
@@ -53,6 +79,21 @@
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">27v</citedRange>
                     </bibl>
+                    <note>not sure if this is correct - Coordinates from: http://www.indexmundi.com/zp/pe/15520.htm</note>
+                    
+                    <bibl xml:id="bib292-2">
+                        <title>Levillier 1921-26 v9</title>
+                        <citedRange unit="pp">175</citedRange>
+                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/175/mode/2up"/></bibl>
+                    <bibl xml:id="bib292-3">
+                        <title>AGI Lima 464</title>
+                    </bibl>
+                    <note type="administrative" subtype="Moved">1</note>
+                    <note type="administrative" subtype="Move_ref">Google sat</note>
+                    <note type="administrative" subtype="MR_other_notes">and Digital Peru</note>
+                    <note type="administrative" subtype="Moved_by">Kohut</note>
+                    <note type="administrative" subtype="Move_date">3/2/2016</note>
+                    <note type="administrative" subtype="Delete_2">0</note>
                     <idno type="URI">http://logarandes.org/place/557</idno>
                 </place>
             </listPlace>

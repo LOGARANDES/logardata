@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-196" source="bib196-1">
+            <place xml:id="place-196" source="bib196-1" type="reduccion">
                <placeName xml:id="name196-1" full="yes" type="standardized">San Miguel de Mayoc</placeName>
                <placeName xml:id="name196-2" type="standardized-Spanish">San Miguel de</placeName>
                <placeName xml:id="name196-3" type="standardized-Andean">Mayoc</placeName>
@@ -78,14 +78,11 @@
                   <geo>-12 48 20.07360 -074 23 23.65080</geo>
                </location>
                <note>The one you pinned is this one, near Huanta, right? http://www.viasatelital.com/mapas/churcampa_san_miguel_de_mayocc.htm. I think it's called both Mayoc and Mayocc. Prov. Churcampa.</note>
-               <bibl xml:id="bib196-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">182</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib196-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">182</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/182/mode/2up"/></bibl>
                <bibl xml:id="bib196-3">
                   <title>AGI Lima 464</title>
                </bibl>

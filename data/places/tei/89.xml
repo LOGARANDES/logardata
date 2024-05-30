@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-89" source="bib89-1">
+            <place xml:id="place-89" source="bib89-1" type="reduccion">
                <placeName xml:id="name89-1" full="yes" type="standardized">San Marcos de Chupan</placeName>
                <placeName xml:id="name89-2" type="standardized-Spanish">San Marcos de</placeName>
                <placeName xml:id="name89-3" type="standardized-Andean">Chupan</placeName>
@@ -71,20 +72,19 @@
                   <settlement type="pueblo">Chupán</settlement>
                </location>
                <location type="gps">
-                  <geo>-9.747855178 -76.64824497</geo>
+                  <geo>-9.376601633 -77.05505118</geo>
                </location>
+               <!--
                <location>
                   <geo>-09 44 52.27800 -076 38 53.68200</geo>
                </location>
+               -->
                <note>MAYBE. Not very close to the other Allauca Pincos / Ychos Pincos</note>
-               <bibl xml:id="bib89-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">200</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib89-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">200</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/200/mode/2up"/></bibl>
                <bibl xml:id="bib89-3">
                   <title>AGI Lima 464</title>
                </bibl>

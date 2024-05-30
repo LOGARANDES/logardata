@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-97" source="bib97-1">
+            <place xml:id="place-97" source="bib97-1" type="reduccion">
                <placeName xml:id="name97-1" full="yes" type="standardized">San Gregorio de Guaillapampa</placeName>
                <placeName xml:id="name97-2" type="standardized-Spanish">San Gregorio de</placeName>
                <placeName xml:id="name97-3" type="standardized-Andean">Guaillapampa</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-10 03 19.03320 -077 32 10.93920</geo>
                </location>
-               <bibl xml:id="bib97-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">199</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib97-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">199</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/199/mode/2up"/></bibl>
                <bibl xml:id="bib97-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-465" source="bib465-1">
+            <place xml:id="place-465" source="bib465-1" type="reduccion">
                <placeName xml:id="name465-1" full="yes" type="standardized">Espiritu Santo de Chayanta</placeName>
                <placeName xml:id="name465-2" type="standardized-Spanish">Espiritu Santo de</placeName>
                <placeName xml:id="name465-3" type="standardized-Andean">Chayanta</placeName>
@@ -79,7 +79,7 @@
                <bibl xml:id="bib465-1">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">138</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/138/mode/2up"/></bibl>
                <bibl xml:id="bib465-2">
                   <title>Levillier 1921-26 v33</title>
                   <citedRange unit="pp">138</citedRange>

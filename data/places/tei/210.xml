@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-210" source="bib210-1">
+            <place xml:id="place-210" source="bib210-1" type="reduccion">
                <placeName xml:id="name210-1" full="yes" type="standardized">La Concepcion de [Andabamba]</placeName>
                <placeName xml:id="name210-2" type="standardized-Spanish">La Concepcion de</placeName>
                <placeName xml:id="name210-3" type="standardized-Andean">[Andabamba]</placeName>
@@ -71,19 +72,18 @@
                   <settlement type="pueblo">Andabamba</settlement>
                </location>
                <location type="gps">
-                  <geo>-13.19049758 -74.43045239</geo>
+                  <geo>-12.69378724 -74.62381375</geo>
                </location>
+               <!--
                <location>
                   <geo>-13 11 25.79280 -074 25 49.62720</geo>
                </location>
-               <bibl xml:id="bib210-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">180</citedRange>
-               </bibl>
+               -->
+               
                <bibl xml:id="bib210-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">180</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/180/mode/2up"/></bibl>
                <bibl xml:id="bib210-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-205" source="bib205-1">
+            <place xml:id="place-205" source="bib205-1" type="reduccion">
                <placeName xml:id="name205-1" full="yes" type="standardized">San Juan de Julcamarca</placeName>
                <placeName xml:id="name205-2" type="standardized-Spanish">San Juan de</placeName>
                <placeName xml:id="name205-3" type="standardized-Andean">Julcamarca</placeName>
@@ -80,14 +80,11 @@
                <location>
                   <geo>-13 00 52.05240 -074 26 40.95600</geo>
                </location>
-               <bibl xml:id="bib205-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">180</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib205-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">180</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/180/mode/2up"/></bibl>
                <bibl xml:id="bib205-3">
                   <title>AGI Lima 464</title>
                </bibl>

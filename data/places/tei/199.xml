@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-199" source="bib199-1">
+            <place xml:id="place-199" source="bib199-1" type="reduccion">
                <placeName xml:id="name199-1" full="yes" type="standardized">San Francisco de Pacarana</placeName>
                <placeName xml:id="name199-2" type="standardized-Spanish">San Francisco de</placeName>
                <placeName xml:id="name199-3" type="standardized-Andean">Pacarana</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-12 51 58.25880 -076 03 16.55640</geo>
                </location>
-               <bibl xml:id="bib199-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">195</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib199-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">195</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/195/mode/2up"/></bibl>
                <bibl xml:id="bib199-3">
                   <title>AGI Lima 464</title>
                </bibl>

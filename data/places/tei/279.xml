@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-279" source="bib279-1">
+            <place xml:id="place-279" source="bib279-1" type="reduccion">
                <placeName xml:id="name279-1" full="yes" type="standardized">San Juan de Ica</placeName>
                <placeName xml:id="name279-2" type="standardized-Spanish">San Juan de</placeName>
                <placeName xml:id="name279-3" type="standardized-Andean">Ica</placeName>
@@ -77,14 +77,11 @@
                   <geo>-14 00 40.76640 -075 44 06.19440</geo>
                </location>
                <note>assuming this is the correct location and not the San Juan de Buatista district</note>
-               <bibl xml:id="bib279-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">194</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib279-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">194</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/194/mode/2up"/></bibl>
                <bibl xml:id="bib279-3">
                   <title>AGI Lima 464</title>
                </bibl>

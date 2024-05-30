@@ -38,16 +38,26 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: Add information on administrative position</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name560-1" full="yes" type="standardized" source="#bib1-1">Santa Maria de Matara</placeName>
+                    <location type="ancient">
+                        <region type="corregimiento">Los Lucanas y Andamarcas</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Los Soras</placeName>
+                        </region>
+                    </location>
+                    <location type="modern">
+                        <settlement type="pueblo">Matara</settlement>
+                    </location>
                     <location type="gps">
-                        <geo>-14.08141 -73.63363</geo>
+                        <geo>-14.08140927 -73.63359513</geo>
                     </location>
                     <note>Probablemente LOGAR confunde Santa Maria de Matara del corregimiento de los Lucanas y Andamarcas (R432) con San Pedro de Matara, del de Aymaraes (R231), ya que localiza este pueblo dentro del corregimiento de los Lucanas y Andamarcas. Sin embargo, no hemos localizado este San Pedro de Matara hasta el momento.</note>
                     <bibl xml:id="bib1-1">

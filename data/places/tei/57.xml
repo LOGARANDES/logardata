@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-57" source="bib57-1">
+            <place xml:id="place-57" source="bib57-1" type="reduccion">
                <placeName xml:id="name57-1" full="yes" type="standardized">Mansiche</placeName>
                <placeName xml:id="name57-3" type="standardized-Andean">Mansiche</placeName>
                <placeName xml:id="name57-4" type="verbatim">mansiche</placeName>
@@ -76,14 +76,11 @@
                   <geo>-08 06 08.16480 -079 02 35.89800</geo>
                </location>
                <note>On edge of Trujillo city. Coordinates from: http://www.indexmundi.com/zp/pe/10960.htm (a little confused--there is a Wikipedia page for Mansiche: https://en.wikipedia.org/wiki/Mansiche,_La_Libertad,_Peru --but it's not on Steve's list or in GE?)</note>
-               <bibl xml:id="bib57-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">207</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib57-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">207</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/207/mode/2up"/></bibl>
                <bibl xml:id="bib57-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-382" source="bib382-1">
+            <place xml:id="place-382" source="bib382-1" type="reduccion">
                <placeName xml:id="name382-1" full="yes" type="standardized">Quicacha</placeName>
                <placeName xml:id="name382-3" type="standardized-Andean">Quicacha</placeName>
                <placeName xml:id="name382-4" type="verbatim">quicacha</placeName>
@@ -64,20 +65,19 @@
                   <settlement type="pueblo">Quicacha</settlement>
                </location>
                <location type="gps">
-                  <geo>-15.62495652 -73.79792241</geo>
+                  <geo>-13.5678841 -74.52283388</geo>
                </location>
+               <!--
                <location>
                   <geo>-15 37 29.84520 -073 47 52.51920</geo>
                </location>
+               -->
                <note>Removed pin for Quicacha, Dept. Arequipa, Prov. Caravelí</note>
-               <bibl xml:id="bib382-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">181</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib382-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">181</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/181/mode/2up"/></bibl>
                <bibl xml:id="bib382-3">
                   <title>AGI Lima 464</title>
                </bibl>

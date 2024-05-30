@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-300" source="bib300-1">
+            <place xml:id="place-300" source="bib300-1" type="reduccion">
                <placeName xml:id="name300-1" full="yes" type="standardized">Bamba [Pampa?] de [Aucara]</placeName>
                <placeName xml:id="name300-3" type="standardized-Andean">Bamba [Pampa?] de [Aucara]</placeName>
                <placeName xml:id="name300-4" type="verbatim">bamba de apucara</placeName>
@@ -69,14 +69,11 @@
                <location>
                   <geo>-14 16 51.72240 -073 58 30.11520</geo>
                </location>
-               <bibl xml:id="bib300-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">179</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib300-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">179</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/179/mode/2up"/></bibl>
                <bibl xml:id="bib300-3">
                   <title>AGI Lima 464</title>
                </bibl>

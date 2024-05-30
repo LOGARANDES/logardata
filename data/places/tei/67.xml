@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-67" source="bib67-1">
+            <place xml:id="place-67" source="bib67-1" type="reduccion">
                <placeName xml:id="name67-1" full="yes" type="standardized">San Lorenzo de Chachas</placeName>
                <placeName xml:id="name67-2" type="standardized-Spanish">San Lorenzo de</placeName>
                <placeName xml:id="name67-3" type="standardized-Andean">Chachas</placeName>
@@ -72,20 +73,19 @@
                   <note type="modern-location">Not a capital</note>
                </location>
                <location type="gps">
-                  <geo>-8.797684242 -78.15430136</geo>
+                  <geo>-9.706972358 -76.77147444</geo>
                </location>
+               <!--
                <location>
                   <geo>-08 47 51.66240 -078 09 15.48360</geo>
                </location>
+               -->
                <note>1</note>
-               <bibl xml:id="bib67-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">201</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib67-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">201</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/201/mode/2up"/></bibl>
                <bibl xml:id="bib67-3">
                   <title>AGI Lima 464</title>
                </bibl>

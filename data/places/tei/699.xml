@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="es">San Geronimo de Pixui</title>
+            <title level="m">LOGAR Linked Open Gazetteer of the Andean Region</title>
+            <sponsor>LOGAR Linked Open Gazetteer of the Andean Region</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+            <principal>Steven A. Wernke</principal>
+            <principal>Akira Saito</principal>
+            <editor role="creator">Steven A. Wernke</editor>
+            <editor role="creator">Akira Saito</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#swernke">Steven A. Wernke</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#aksaito">Akira Saito</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>LOGAR Linked Open Gazetteer of the Andean Region</authority>
+            <idno type="URI">http://logarandes.org/place/699/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-04-08-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the LOGAR guidelines. 
+                        Documentation available at: <ref target="http://logarandes.org/documentation">http://logarandes.org/documentation</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-08-04:00">Updates from Akira Saito.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-699" source="bib699-1" type="reduccion">
+               <placeName full="yes" type="standardized" xml:id="name699-1">San Geronimo de Pixui</placeName>
+               <placeName type="standardized-Spanish" xml:id="name699-2">San Geronimo de</placeName>
+               <placeName type="standardized-Andean" xml:id="name699-3">Pixui</placeName>
+               <placeName type="verbatim" xml:id="name699-4">San Geronimo de Pixui</placeName>
+               <location type="ancient">
+                  <region type="audiencia">Lima</region>
+                  <region type="corregimiento">Jarama e Chinchacocha</region>
+                  <region type="repartimiento">
+                     <placeName type="standardized" full="yes">Tarama</placeName>
+                  </region>
+                  <settlement type="pueblo">San Geronimo de Pixui</settlement>
+               </location>
+               <location type="modern">
+                  <country>Peru</country>
+                  <region type="province">Pichuy</region>
+                  <region type="department">Junín</region>
+                  <settlement type="pueblo">Pichuy</settlement>
+               </location>
+               <location type="gps">
+                  <geo>-11.41954436 -75.57285679</geo>
+               </location>
+               <bibl xml:id="bib699-2">
+                  <title>AGI Lima 573 42r</title>
+                  <citedRange unit="pp">p.204, par.5</citedRange>
+               </bibl>
+               <idno type="URI">http://logarandes.org/place/699</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

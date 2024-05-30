@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-48" source="bib48-1">
+            <place xml:id="place-48" source="bib48-1" type="reduccion">
                <placeName xml:id="name48-1" full="yes" type="standardized">Cherrepe</placeName>
                <placeName xml:id="name48-3" type="standardized-Andean">Cherrepe</placeName>
                <placeName xml:id="name48-4" type="verbatim">cherrepe</placeName>
@@ -75,14 +75,11 @@
                <location>
                   <geo>-07 10 33.29040 -079 41 24.60480</geo>
                </location>
-               <bibl xml:id="bib48-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">208</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib48-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">208</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/208/mode/2up"/></bibl>
                <bibl xml:id="bib48-3">
                   <title>AGI Lima 464</title>
                </bibl>

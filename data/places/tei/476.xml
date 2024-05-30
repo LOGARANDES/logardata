@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-476" source="bib476-1">
+            <place xml:id="place-476" source="bib476-1" type="reduccion">
                <placeName xml:id="name476-1" full="yes" type="standardized">Santa Ana de Potobamba</placeName>
                <placeName xml:id="name476-2" type="standardized-Spanish">Santa Ana de</placeName>
                <placeName xml:id="name476-3" type="standardized-Andean">Potobamba</placeName>
@@ -79,7 +79,7 @@
                <bibl xml:id="bib476-1">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">137</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/137/mode/2up"/></bibl>
                <bibl xml:id="bib476-2">
                   <title>Levillier 1921-26 v23</title>
                   <citedRange unit="pp">137</citedRange>

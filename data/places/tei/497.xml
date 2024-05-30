@@ -38,21 +38,56 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 497 with administrative information from 457</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name497-1" full="yes" type="standardized" source="#bib1-1">La Magdalena de Aymaya</placeName>
+                    <placeName xml:id="name497-2" type="standardized-Spanish">Magdalena de</placeName>
+                    <placeName xml:id="name497-3" type="standardized-Andean">Aymaya</placeName>
+                    <placeName xml:id="name497-4" type="verbatim">Magdalena de Aymaya</placeName>
+                    <location type="ancient">
+                        <region type="audiencia">La Plata</region>
+                        <region type="ciudad">La Plata</region>
+                        <region type="corregimiento">Chayanta</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Macha</placeName>
+                            <placeName type="verbatim">macha</placeName>
+                        </region>
+                        <settlement type="pueblo">Magdalena de Aymaya</settlement>
+                    </location>
+                    <location type="modern">
+                        <country>Bolivia</country>
+                        <region type="province">Rafael Bustillo</region>
+                        <region type="department">Potosí</region>
+                        <settlement type="pueblo">Aymaya</settlement>
+                        <note type="modern-location">Municipio Chayanta</note>
+                    </location>
                     <location type="gps">
                         <geo>-18.44847 -66.46101</geo>
                     </location>
+                    <bibl xml:id="bib497-1">
+                        <title>Levillier 1921-26 v9</title>
+                        <citedRange unit="pp">139</citedRange>
+                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/139/mode/2up"/></bibl>
+                    <bibl xml:id="bib497-2">
+                        <title>Levillier 1921-26 v39</title>
+                        <citedRange unit="pp">139</citedRange>
+                    </bibl>
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">10r</citedRange>
                     </bibl>
+                    <idno type="URI">http://logarandes.org/place/457</idno>
+                    <note type="administrative" subtype="Moved">1</note>
+                    <note type="administrative" subtype="Move_ref">Google sat</note>
+                    <note type="administrative" subtype="Moved_by">Mumford</note>
+                    <note type="administrative" subtype="Move_date">12/1/2015</note>
+                    <note type="administrative" subtype="Delete_2">0</note>                    
                     <idno type="URI">http://logarandes.org/place/497</idno>
                 </place>
             </listPlace>
