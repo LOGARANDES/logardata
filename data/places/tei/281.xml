@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-281" source="bib281-1">
+            <place xml:id="place-281" source="bib281-1" type="reduccion">
                <placeName xml:id="name281-1" full="yes" type="standardized">San Geronimo de Toraya</placeName>
                <placeName xml:id="name281-2" type="standardized-Spanish">San Geronimo de</placeName>
                <placeName xml:id="name281-3" type="standardized-Andean">Toraya</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-14 03 11.20680 -073 17 40.36560</geo>
                </location>
-               <bibl xml:id="bib281-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">163</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib281-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">163</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/163/mode/2up"/></bibl>
                <bibl xml:id="bib281-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-169" source="bib169-1">
+            <place xml:id="place-169" source="bib169-1" type="reduccion">
                <placeName xml:id="name169-1" full="yes" type="standardized">San Lorenzo [de Quinti?]</placeName>
                <placeName xml:id="name169-2" type="standardized-Spanish">San Lorenzo [de</placeName>
                <placeName xml:id="name169-3" type="standardized-Andean">[Quinti?]</placeName>
@@ -77,14 +77,11 @@
                   <geo>-12 08 42.47160 -076 12 45.39240</geo>
                </location>
                <note>Coordinates from: http://www.maplandia.com/peru/lima/huarochiri/san-lorenzo-de-quinti/</note>
-               <bibl xml:id="bib169-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">191</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib169-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">191</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/191/mode/2up"/></bibl>
                <bibl xml:id="bib169-3">
                   <title>AGI Lima 464</title>
                </bibl>

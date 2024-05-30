@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-394" source="bib394-1">
+            <place xml:id="place-394" source="bib394-1" type="reduccion">
                <placeName xml:id="name394-1" full="yes" type="standardized">Puno</placeName>
                <placeName xml:id="name394-3" type="standardized-Andean">Puno</placeName>
                <placeName xml:id="name394-4" type="verbatim">Puno</placeName>
@@ -70,19 +71,18 @@
                   <settlement type="pueblo">Puno</settlement>
                </location>
                <location type="gps">
-                  <geo>-15.83807936 -70.02809548</geo>
+                  <geo>-15.8406096 -70.02795105</geo>
                </location>
+               <!--
                <location>
                   <geo>-15 50 17.08440 -070 01 41.14200</geo>
                </location>
-               <bibl xml:id="bib394-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">148</citedRange>
-               </bibl>
+               -->
+               
                <bibl xml:id="bib394-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">148</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/148/mode/2up"/></bibl>
                <bibl xml:id="bib394-3">
                   <title>AGI Lima 464</title>
                </bibl>

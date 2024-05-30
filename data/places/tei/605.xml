@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="es">San Francisco de Aycoata</title>
+            <title level="m">LOGAR Linked Open Gazetteer of the Andean Region</title>
+            <sponsor>LOGAR Linked Open Gazetteer of the Andean Region</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+            <principal>Steven A. Wernke</principal>
+            <principal>Akira Saito</principal>
+            <editor role="creator">Steven A. Wernke</editor>
+            <editor role="creator">Akira Saito</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#swernke">Steven A. Wernke</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#aksaito">Akira Saito</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>LOGAR Linked Open Gazetteer of the Andean Region</authority>
+            <idno type="URI">http://logarandes.org/place/605/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-04-08-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the LOGAR guidelines. 
+                        Documentation available at: <ref target="http://logarandes.org/documentation">http://logarandes.org/documentation</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-08-04:00">Updates from Akira Saito.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-605" source="bib605-1" type="reduccion">
+               <placeName full="yes" type="standardized" xml:id="name605-1">San Francisco de Aycoata</placeName>
+               <placeName type="standardized-Spanish" xml:id="name605-2">San Francisco de</placeName>
+               <placeName type="standardized-Andean" xml:id="name605-3">Aycoata</placeName>
+               <placeName type="verbatim" xml:id="name605-4">San Francisco de Aycoata</placeName>
+               <location type="ancient">
+                  <region type="audiencia">La Plata</region>
+                  <region type="corregimiento">Caracollo</region>
+                  <region type="repartimiento">
+                     <placeName type="standardized" full="yes">Los Yngas de Suri</placeName>
+                  </region>
+                  <settlement type="pueblo">San Francisco de Aycoata</settlement>
+               </location>
+               <location type="modern">
+                  <country>Bolivia</country>
+                  <region type="province">Circuata</region>
+                  <region type="department">La Paz</region>
+                  <settlement type="pueblo">Circuata</settlement>
+               </location>
+               <location type="gps">
+                  <geo>-16.64477635 -67.2311665</geo>
+               </location>
+               <bibl xml:id="bib605-2">
+                  <title>AGI Lima 468 12r</title>
+                  <citedRange unit="pp">p.143, par.9</citedRange>
+               </bibl>
+               <idno type="URI">http://logarandes.org/place/605</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

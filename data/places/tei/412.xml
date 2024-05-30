@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-412" source="bib412-1">
+            <place xml:id="place-412" source="bib412-1" type="reduccion">
                <placeName xml:id="name412-1" full="yes" type="standardized">Villareal</placeName>
                <placeName xml:id="name412-2" type="standardized-Spanish">Villareal</placeName>
                <placeName xml:id="name412-4" type="verbatim">Villarreal</placeName>
@@ -70,14 +70,11 @@
                   <geo>-16 25 53.35680 -073 06 17.71560</geo>
                </location>
                <note>Only "Villareal" I can find is in Apurímac region - Google suggested that I was looking for "Villarreal," but none of those results were in Arequipa either...</note>
-               <bibl xml:id="bib412-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">176</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib412-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">176</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/176/mode/2up"/></bibl>
                <bibl xml:id="bib412-3">
                   <title>AGI Lima 464</title>
                </bibl>

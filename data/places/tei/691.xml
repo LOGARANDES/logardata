@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="es">San Xpoual de Chaquin</title>
+            <title level="m">LOGAR Linked Open Gazetteer of the Andean Region</title>
+            <sponsor>LOGAR Linked Open Gazetteer of the Andean Region</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+            <principal>Steven A. Wernke</principal>
+            <principal>Akira Saito</principal>
+            <editor role="creator">Steven A. Wernke</editor>
+            <editor role="creator">Akira Saito</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#swernke">Steven A. Wernke</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#aksaito">Akira Saito</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>LOGAR Linked Open Gazetteer of the Andean Region</authority>
+            <idno type="URI">http://logarandes.org/place/691/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-04-08-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the LOGAR guidelines. 
+                        Documentation available at: <ref target="http://logarandes.org/documentation">http://logarandes.org/documentation</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-08-04:00">Updates from Akira Saito.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-691" source="bib691-1" type="reduccion">
+               <placeName full="yes" type="standardized" xml:id="name691-1">San Xpoual de Chaquin</placeName>
+               <placeName type="standardized-Spanish" xml:id="name691-2">San Xpoual de</placeName>
+               <placeName type="standardized-Andean" xml:id="name691-3">Chaquin</placeName>
+               <placeName type="verbatim" xml:id="name691-4">San Xpoual de Chaquin</placeName>
+               <location type="ancient">
+                  <region type="audiencia">Lima</region>
+                  <region type="corregimiento">Los Guamalies</region>
+                  <region type="repartimiento">
+                     <placeName type="standardized" full="yes">Pariarga</placeName>
+                  </region>
+                  <settlement type="pueblo">San Xpoual de Chaquin</settlement>
+               </location>
+               <location type="modern">
+                  <country>Peru</country>
+                  <region type="province">Chavin de Pariarca</region>
+                  <region type="department">Huánuco</region>
+                  <settlement type="pueblo">Chavin de Pariarca</settlement>
+               </location>
+               <location type="gps">
+                  <geo>-9.423208507 -76.77116331</geo>
+               </location>
+               <bibl xml:id="bib691-2">
+                  <title>AGI Lima 564 40v</title>
+                  <citedRange unit="pp">p.201, par.9</citedRange>
+               </bibl>
+               <idno type="URI">http://logarandes.org/place/691</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

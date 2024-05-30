@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-14" source="bib14-1">
+            <place xml:id="place-14" source="bib14-1" type="reduccion">
                <placeName xml:id="name14-1" full="yes" type="standardized">Oromina</placeName>
                <placeName xml:id="name14-3" type="standardized-Andean">Oromina</placeName>
                <placeName xml:id="name14-4" type="verbatim">vn pueblo del mesmo nombre</placeName>
@@ -70,19 +71,13 @@
                   <settlement type="pueblo">Oromina</settlement>
                </location>
                <location type="gps">
-                  <geo>-6.111162034 -77.02400148</geo>
+                  <geo>-6.099123943 -77.03375229</geo>
                </location>
-               <location>
-                  <geo>-06 06 40.18320 -077 01 26.40360</geo>
-               </location>
-               <bibl xml:id="bib14-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">217</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib14-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">217</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/217/mode/2up"/></bibl>
                <bibl xml:id="bib14-3">
                   <title>AGI Lima 464</title>
                </bibl>

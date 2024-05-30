@@ -38,16 +38,26 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: Add information on administrative position</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name543-1" full="yes" type="standardized" source="#bib1-1">Llerena de Pampa</placeName>
+                    <location type="ancient">
+                        <region type="corregimiento">Parinacocha</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Guaynacota</placeName>
+                        </region>
+                    </location>
+                    <location type="modern">
+                        <settlement type="pueblo">Pampamarca</settlement>
+                    </location>
                     <location type="gps">
-                        <geo>-15.12885 -72.90468</geo>
+                        <geo>-15.1288661 -72.90472286</geo>
                     </location>
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>

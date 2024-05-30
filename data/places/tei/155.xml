@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-155" source="bib155-1">
+            <place xml:id="place-155" source="bib155-1" type="reduccion">
                <placeName xml:id="name155-1" full="yes" type="standardized">[Nuestra Señora de la Concepcion de] Lapa</placeName>
                <placeName xml:id="name155-2" type="standardized-Spanish">[Nuestra Señora de]</placeName>
                <placeName xml:id="name155-3" type="standardized-Andean">Lapa</placeName>
@@ -78,14 +78,11 @@
                   <geo>-11 55 06.40920 -075 18 46.62720</geo>
                </location>
                <note>Wikipedia: "Fue fundada por los conquistadores españoles el 8 de diciembre de 1537.1 con el nombre de Concepción de Lapa. "</note>
-               <bibl xml:id="bib155-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">190</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib155-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">190</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/190/mode/2up"/></bibl>
                <bibl xml:id="bib155-3">
                   <title>AGI Lima 464</title>
                </bibl>

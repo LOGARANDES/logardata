@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-347" source="bib347-1">
+            <place xml:id="place-347" source="bib347-1" type="reduccion">
                <placeName xml:id="name347-1" full="yes" type="standardized">Vilque</placeName>
                <placeName xml:id="name347-3" type="standardized-Andean">Vilque</placeName>
                <placeName xml:id="name347-4" type="verbatim">vn pueblo del mesmo nombre</placeName>
@@ -82,14 +82,11 @@
                   <geo>-15 12 51.50160 -069 41 20.85720</geo>
                </location>
                <note>Coordinates from: http://peru.pyntrip.com/maps-vilque-chico-region-de-puno</note>
-               <bibl xml:id="bib347-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">148</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib347-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">148</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/148/mode/2up"/></bibl>
                <bibl xml:id="bib347-3">
                   <title>AGI Lima 464</title>
                </bibl>

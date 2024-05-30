@@ -38,21 +38,54 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 500 with administrative information from 441</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name500-1" full="yes" type="standardized" source="#bib1-1">Villanueua de la Serena</placeName>
+                    <placeName xml:id="name500-2" type="standardized-Spanish">Villanueva de</placeName>
+                    <placeName xml:id="name500-3" type="standardized-Andean">Totora</placeName>
+                    <placeName xml:id="name500-4" type="verbatim">Villanueua de la serena</placeName>
+                    <location type="ancient">
+                        <region type="audiencia">La Plata</region>
+                        <region type="ciudad">La Plata</region>
+                        <region type="corregimiento">Carangas</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Totora</placeName>
+                            <placeName type="verbatim">totora</placeName>
+                        </region>
+                        <settlement type="pueblo">Villanueva de la Serena de Totora</settlement>
+                    </location>
                     <location type="gps">
                         <geo>-17.79342 -68.14590</geo>
                     </location>
+                    <population>
+                        <desc>7036</desc>
+                    </population>
+                    <population source="bib441-1" type="tributaries">
+                        <desc>1338</desc>
+                    </population>
+                    <note>IndexMundi shows lots of Totora's in Bolivia, but none in Dept. Oruro.</note>
+                    <bibl xml:id="bib441-1">
+                        <title>Levillier 1921-26 v9</title>
+                        <citedRange unit="pp">139-140</citedRange>
+                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/139-140/mode/2up"/></bibl>
+                    <bibl xml:id="bib441-2">
+                        <title>Levillier 1921-26 v56</title>
+                        <citedRange unit="pp">139-140</citedRange>
+                    </bibl>
+                    <bibl xml:id="bib441-3">
+                        <title>AGI Lima 464</title>
+                    </bibl>
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">10v</citedRange>
                     </bibl>
+                    <note type="administrative" subtype="Moved">0</note>
                     <idno type="URI">http://logarandes.org/place/500</idno>
                 </place>
             </listPlace>

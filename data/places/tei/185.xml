@@ -48,14 +48,15 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2016-05-09-04:00">Location corrections provided by Akira Saito of the National Museum of Ethnology, Japan and his team. </change>
             <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-185" source="bib185-1">
+            <place xml:id="place-185" source="bib185-1" type="reduccion">
                <placeName xml:id="name185-1" full="yes" type="standardized">Ocororo</placeName>
                <placeName xml:id="name185-3" type="standardized-Andean">Ocororo</placeName>
                <placeName xml:id="name185-4" type="verbatim">ocororo</placeName>
@@ -75,21 +76,20 @@
                   <region type="department">Huancavelica</region>
                   <settlement type="pueblo">Occoro</settlement>
                </location>
-               <location type="gps" source="#bib185-3">
-                        <geo>-13.21569 -74.03876</geo>
-                    </location>
+               <location type="gps">
+                  <geo>-12.34914274 -74.72965294</geo>
+               </location>
+               <!--
                <location>
                   <geo>-12 35 41.35920 -075 01 10.54200</geo>
                </location>
+               -->
                <note>This pin should be labeled Occoro and put in the same location as Conayca. Nuevo Occoro is a different location. -- "La comunidad madre de Occoro Viejo, era anexo del distrito de Conayca": http://es.wikipedia.org/wiki/Distrito_de_Nuevo_Occoro - Coordinat</note>
-               <bibl xml:id="bib185-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">182</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib185-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">182</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/182/mode/2up"/></bibl>
                <bibl xml:id="bib185-3">
                   <title>AGI Lima 464</title>
                <citedRange unit="part">31v</citedRange>

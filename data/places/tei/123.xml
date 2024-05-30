@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-123" source="bib123-1">
+            <place xml:id="place-123" source="bib123-1" type="reduccion">
                <placeName xml:id="name123-1" full="yes" type="standardized">San Francisco Higuare</placeName>
                <placeName xml:id="name123-2" type="standardized-Spanish">San Francisco</placeName>
                <placeName xml:id="name123-3" type="standardized-Andean">Higuare</placeName>
@@ -71,20 +72,19 @@
                   <settlement type="pueblo">Huaura</settlement>
                </location>
                <location type="gps">
-                  <geo>-11.07008694 -77.59931626</geo>
+                  <geo>-11.18889814 -76.95206826</geo>
                </location>
+               <!--
                <location>
                   <geo>-11 04 12.31320 -077 35 57.53760</geo>
                </location>
+               -->
                <note>http://historiadehuaura.galeon.com/: "Fundación de la "Villa de Huaura" o de "Carrión de Velasco" 1597. Al pasar por el antiguo pueblo de Indios de Huaura, el 20 de Julio de 1596, el virrey don Luis de Velasco fue acogido con vivas muestras de simpatía p</note>
-               <bibl xml:id="bib123-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">197</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib123-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">197</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/197/mode/2up"/></bibl>
                <bibl xml:id="bib123-3">
                   <title>AGI Lima 464</title>
                </bibl>

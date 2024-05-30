@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-200" source="bib200-1">
+            <place xml:id="place-200" source="bib200-1" type="reduccion">
                <placeName xml:id="name200-1" full="yes" type="standardized">San Pablo de [Callanmarca]</placeName>
                <placeName xml:id="name200-2" type="standardized-Spanish">San Pablo de</placeName>
                <placeName xml:id="name200-3" type="standardized-Andean">[Callanmarca]</placeName>
@@ -81,14 +81,11 @@
                   <geo>-12 52 00.91200 -074 37 23.03760</geo>
                </location>
                <note>Coordinates from: http://www.maplandia.com/peru/huancavelica/angares/callanmarca/</note>
-               <bibl xml:id="bib200-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">180</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib200-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">180</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/180/mode/2up"/></bibl>
                <bibl xml:id="bib200-3">
                   <title>AGI Lima 464</title>
                </bibl>

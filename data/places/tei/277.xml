@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-277" source="bib277-1">
+            <place xml:id="place-277" source="bib277-1" type="reduccion">
                <placeName xml:id="name277-1" full="yes" type="standardized">Nuestra Señora de las Nieves de [Umamarca]</placeName>
                <placeName xml:id="name277-2" type="standardized-Spanish">Nuestra Señora de</placeName>
                <placeName xml:id="name277-3" type="standardized-Andean">[Umamarca]</placeName>
@@ -77,14 +77,11 @@
                   <geo>-14 03 10.89360 -073 33 57.45960</geo>
                </location>
                <note>This may be village Umamarca in Tumay Huaraca district. See http://leocadioccaccya.blogspot.com/2012/12/una-mirada-historica-al-pueblo.html. Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=-548285&amp;fid=4559&amp;c=peru</note>
-               <bibl xml:id="bib277-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">169</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib277-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">169</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/169/mode/2up"/></bibl>
                <bibl xml:id="bib277-3">
                   <title>AGI Lima 464</title>
                </bibl>

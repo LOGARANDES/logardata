@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-174" source="bib174-1">
+            <place xml:id="place-174" source="bib174-1" type="reduccion">
                <placeName xml:id="name174-1" full="yes" type="standardized">not identified [Santísimo Salvador de Pachacámac?]</placeName>
                <placeName xml:id="name174-3" type="standardized-Andean">[Pachacámac]</placeName>
                <placeName xml:id="name174-4" type="verbatim">vn pueblo</placeName>
@@ -84,14 +84,11 @@
                   <geo>-12 13 47.66880 -076 51 33.77520</geo>
                </location>
                <note>http://es.wikipedia.org/wiki/Distrito_de_Pachac%C3%A1mac: "...en 1573 se congregó a los indios Caringas, Manchais y Pachacámac para reducirlos en el pueblo “Santísimo Salvador de Pachacámac” hoy actual pueblo."</note>
-               <bibl xml:id="bib174-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">195</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib174-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">195</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/195/mode/2up"/></bibl>
                <bibl xml:id="bib174-3">
                   <title>AGI Lima 464</title>
                </bibl>

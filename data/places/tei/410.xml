@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-410" source="bib410-1">
+            <place xml:id="place-410" source="bib410-1" type="reduccion">
                <placeName xml:id="name410-1" full="yes" type="standardized">Santa Cruz de la Frontera [de Paucarpata?]</placeName>
                <placeName xml:id="name410-2" type="standardized-Spanish">Santa Cruz de</placeName>
                <placeName xml:id="name410-3" type="standardized-Andean">[Paucarpata?]</placeName>
@@ -85,14 +85,11 @@
                   <geo>-16 25 57.94320 -071 30 14.66280</geo>
                </location>
                <note>Pop numbers for indiv rpts are from Cook. Levillier gives total number at 1262/5564, which is much higher.</note>
-               <bibl xml:id="bib410-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">176</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib410-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">176</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/176/mode/2up"/></bibl>
                <bibl xml:id="bib410-3">
                   <title>AGI Lima 464</title>
                </bibl>

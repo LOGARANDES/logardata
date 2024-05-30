@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-244" source="bib244-1">
+            <place xml:id="place-244" source="bib244-1" type="reduccion">
                <placeName xml:id="name244-1" full="yes" type="standardized">Guancaguanca</placeName>
                <placeName xml:id="name244-3" type="standardized-Andean">Guancaguanca</placeName>
                <placeName xml:id="name244-4" type="verbatim">Guan Guanca</placeName>
@@ -70,14 +70,11 @@
                   <geo>-13 44 40.86600 -072 05 22.58880</geo>
                </location>
                <note>Removed pin for "Huanca Huanca, Peru" in Cusco region - Coordinates from: http://www.geographic.org/geographic_names///name.php?uni=6591656&amp;fid=4567&amp;c=peru - this location isn't in Steve's list, IM, or GE, so I'm assuming it's probably questionable...</note>
-               <bibl xml:id="bib244-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">161</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib244-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">161</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/161/mode/2up"/></bibl>
                <bibl xml:id="bib244-3">
                   <title>AGI Lima 464</title>
                </bibl>

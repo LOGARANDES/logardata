@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-15" source="bib15-1">
+            <place xml:id="place-15" source="bib15-1" type="reduccion">
                <placeName xml:id="name15-1" full="yes" type="standardized">San Andres</placeName>
                <placeName xml:id="name15-2" type="standardized-Spanish">San Andres</placeName>
                <placeName xml:id="name15-4" type="verbatim">sant andres</placeName>
@@ -74,14 +74,11 @@
                   <settlement type="pueblo">Pomacocha</settlement>
                </location>
                <note>[G219 says both Pomacocha and Trapollo have two reds, S Andres and S Tomas, but I think this may be mistake: Juicio de Limites 1:268 says Pomacocha has red named Pomacocha, while Trapollo has S Andres and S Tomas.]</note>
-               <bibl xml:id="bib15-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">219</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib15-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">219</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/219/mode/2up"/></bibl>
                <bibl xml:id="bib15-3">
                   <title>AGI Lima 464</title>
                </bibl>

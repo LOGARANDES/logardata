@@ -38,20 +38,52 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 529 with administrative information from 307</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name529-1" full="yes" type="standardized" source="#bib1-1">San Martin de Lurucache</placeName>
+                    <placeName xml:id="name529-2" type="standardized-Spanish">San Martin de</placeName>
+                    <placeName xml:id="name529-3" type="standardized-Andean">Lurucache</placeName>
+                    <placeName xml:id="name529-4" type="verbatim">san martin de lurucache</placeName>
+                    <location type="ancient">
+                        <region type="audiencia">Lima</region>
+                        <region type="ciudad">Cuzco</region>
+                        <region type="corregimiento">Canas</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Ansaybayba y Lurucachi</placeName>
+                            <placeName type="verbatim">Ansaybayba y Lurucache</placeName>
+                        </region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Marangani</placeName>
+                            <placeName type="verbatim"/>
+                        </region>
+                        <settlement type="pueblo">San Martin de Lurucache</settlement>
+                    </location>
+                    <location type="modern">
+                        <country>Peru</country>
+                        <region type="province">Canchis</region>
+                        <region type="department">Cusco</region>
+                        <settlement type="pueblo">Marangani</settlement>
+                    </location>
                     <location type="gps">
                         <geo>-14.35717 -71.16867</geo>
                     </location>
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">18v</citedRange>
+                    </bibl>
+                    
+                    <bibl xml:id="bib307-2">
+                        <title>Levillier 1921-26 v9</title>
+                        <citedRange unit="pp">156</citedRange>
+                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/156/mode/2up"/></bibl>
+                    <bibl xml:id="bib307-3">
+                        <title>AGI Lima 464</title>
                     </bibl>
                     <idno type="URI">http://logarandes.org/place/529</idno>
                 </place>

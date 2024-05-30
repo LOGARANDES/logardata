@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-246" source="bib246-1">
+            <place xml:id="place-246" source="bib246-1" type="reduccion">
                <placeName xml:id="name246-1" full="yes" type="standardized">San Antonio de Cocha</placeName>
                <placeName xml:id="name246-2" type="standardized-Spanish">San Antonio de</placeName>
                <placeName xml:id="name246-3" type="standardized-Andean">Cocha</placeName>
@@ -72,20 +73,19 @@
                   <note type="modern-location">Huambalpa</note>
                </location>
                <location type="gps">
-                  <geo>-13.78441611 -74.04479197</geo>
+                  <geo>-13.7630911 -73.83453802</geo>
                </location>
+               <!--
                <location>
                   <geo>-13 47 03.89760 -074 02 41.25120</geo>
                </location>
+               -->
                <note>Coordinates from: http://www.postalcodedb.com/05385_San%20Antonio%20de%20Cocha_Peru.html (same Coordinates as Huambalpa on multiple sites...)</note>
-               <bibl xml:id="bib246-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">181</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib246-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">181</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/181/mode/2up"/></bibl>
                <bibl xml:id="bib246-3">
                   <title>AGI Lima 464</title>
                </bibl>

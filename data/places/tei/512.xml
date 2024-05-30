@@ -38,14 +38,42 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 512 with administrative information from 356</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name512-1" full="yes" type="standardized" source="#bib1-1">Chuma</placeName>
+                    <placeName xml:id="name512-3" type="standardized-Andean">Chuma</placeName>
+                    <placeName xml:id="name512-4" type="verbatim">chuma</placeName>
+                    <location type="ancient">
+                        <region type="audiencia">La Plata</region>
+                        <region type="ciudad">La Paz</region>
+                        <region type="corregimiento">Larecaja</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Ambana</placeName>
+                            <placeName type="verbatim">Ambana</placeName>
+                        </region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Ayata</placeName>
+                            <placeName type="verbatim"/>
+                        </region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Various: mitimaes</placeName>
+                            <placeName type="verbatim">mitimaes de diferentes repartimientos</placeName>
+                        </region>
+                        <settlement type="pueblo">Chuma</settlement>
+                        <note type="repartimiento">"en este pueblo de chuma estan asemesmo rreducidos los yndios de ayata encomendados en don joan rramirez de vargas que son 41 yndios tibutarios y 214 personas y asimesmo estan rreuzidos en esos dos pueblos otros 400 yndios mitimaes de diferentes repartim</note>
+                    </location>
+                    <location type="modern">
+                        <country>Bolivia</country>
+                        <region type="province">Muñecas</region>
+                        <region type="department">La Paz</region>
+                        <settlement type="pueblo">Chuma</settlement>
+                    </location>
                     <location type="gps">
                         <geo>-15.47977 -68.89826</geo>
                     </location>
@@ -53,6 +81,20 @@
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">12v</citedRange>
                     </bibl>
+                    
+                    <bibl xml:id="bib356-2">
+                        <title>Levillier 1921-26 v9</title>
+                        <citedRange unit="pp">144</citedRange>
+                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/144/mode/2up"/></bibl>
+                    <bibl xml:id="bib356-3">
+                        <title>AGI Lima 464</title>
+                    </bibl>
+                    <note type="administrative" subtype="Moved">1</note>
+                    <note type="administrative" subtype="Move_ref">Google map</note>
+                    <note type="administrative" subtype="MR_other_notes">Name appears here on Google Earth and maps, but satellite image resolution is inadequate to locate visually.</note>
+                    <note type="administrative" subtype="Moved_by">Mumford</note>
+                    <note type="administrative" subtype="Move_date">12/11/2015</note>
+                    <note type="administrative" subtype="Delete_2">0</note>
                     <idno type="URI">http://logarandes.org/place/512</idno>
                 </place>
             </listPlace>

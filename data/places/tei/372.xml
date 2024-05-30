@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-372" source="bib372-1">
+            <place xml:id="place-372" source="bib372-1" type="reduccion">
                <placeName xml:id="name372-1" full="yes" type="standardized">Talavera de Lare</placeName>
                <placeName xml:id="name372-2" type="standardized-Spanish">Talavera de</placeName>
                <placeName xml:id="name372-3" type="standardized-Andean">Lare</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-15 37 24.22560 -071 46 06.87000</geo>
                </location>
-               <bibl xml:id="bib372-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">174</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib372-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">174</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/174/mode/2up"/></bibl>
                <bibl xml:id="bib372-3">
                   <title>AGI Lima 464</title>
                </bibl>

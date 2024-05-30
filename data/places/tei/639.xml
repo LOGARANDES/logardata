@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="es">Nuestra Señora del Valle</title>
+            <title level="m">LOGAR Linked Open Gazetteer of the Andean Region</title>
+            <sponsor>LOGAR Linked Open Gazetteer of the Andean Region</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+            <principal>Steven A. Wernke</principal>
+            <principal>Akira Saito</principal>
+            <editor role="creator">Steven A. Wernke</editor>
+            <editor role="creator">Akira Saito</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#swernke">Steven A. Wernke</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#aksaito">Akira Saito</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>LOGAR Linked Open Gazetteer of the Andean Region</authority>
+            <idno type="URI">http://logarandes.org/place/639/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-04-08-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the LOGAR guidelines. 
+                        Documentation available at: <ref target="http://logarandes.org/documentation">http://logarandes.org/documentation</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-08-04:00">Updates from Akira Saito.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change></revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-639" source="bib639-1" type="reduccion">
+               <placeName full="yes" type="standardized" xml:id="name639-1">Nuestra Señora del Valle</placeName>
+               <placeName type="standardized-Spanish" xml:id="name639-2">Nuestra Señora del Valle</placeName>
+               <placeName type="verbatim" xml:id="name639-4">Nuestra Señora del Valle</placeName>
+               <location type="ancient">
+                  <region type="audiencia">Lima</region>
+                  <region type="corregimiento">El Valle de Avancay</region>
+                  <region type="repartimiento">
+                     <placeName type="standardized" full="yes">Canço; Pomaguanca y Anaguaçi</placeName>
+                  </region>
+                  <settlement type="pueblo">Nuestra Señora del Valle</settlement>
+               </location>
+               <location type="modern">
+                  <country>Peru</country>
+                  <region type="province">Ancahuasi</region>
+                  <region type="department">Cusco</region>
+                  <settlement type="pueblo">Ancahuasi</settlement>
+               </location>
+               <location type="gps">
+                  <geo>-13.45734686 -72.30042002</geo>
+               </location>
+               <bibl xml:id="bib639-2">
+                  <title>AGI Lima 502 24r</title>
+                  <citedRange unit="pp">p.168, par.3</citedRange>
+               </bibl>
+               <idno type="URI">http://logarandes.org/place/639</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

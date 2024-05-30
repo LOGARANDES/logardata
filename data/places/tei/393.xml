@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-393" source="bib393-1">
+            <place xml:id="place-393" source="bib393-1" type="reduccion">
                <placeName xml:id="name393-1" full="yes" type="standardized">Hilabaya</placeName>
                <placeName xml:id="name393-3" type="standardized-Andean">Hilabaya</placeName>
                <placeName xml:id="name393-4" type="verbatim">hilauaya</placeName>
@@ -64,15 +65,15 @@
                   <settlement type="pueblo">Hilabaya</settlement>
                   <note type="repartimiento">En este valle de larecaxa ay otros tres pueblos de se llaman trauaya y hilauaya y conbaya en todos ay 1200 yndios tributarios de diferentes repartimientos que acuden con sus tributos a sus cabeceras.</note>
                </location>
+               <location type="gps">
+                  <geo>-15.80860456 -68.6559066</geo>
+               </location>
                <note>Coordinates from: http://www.gomapper.com/travel/where-is/ilabaya-la-paz-bolivia-0-located.html: "Hilabaya o Ilavaya es un pueblo próximo a Sorata". http://www.familysearch.org/learn/wiki/en/La_Paz:Larecaja: "Villa Guachalla Canton (previously Ilabaya)".</note>
-               <bibl xml:id="bib393-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">144</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib393-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">144</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/144/mode/2up"/></bibl>
                <bibl xml:id="bib393-3">
                   <title>AGI Lima 464</title>
                </bibl>

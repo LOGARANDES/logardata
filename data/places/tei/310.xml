@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-310" source="bib310-1">
+            <place xml:id="place-310" source="bib310-1" type="reduccion">
                <placeName xml:id="name310-1" full="yes" type="standardized">San Salvador de Atabamba [Antabamba?]</placeName>
                <placeName xml:id="name310-2" type="standardized-Spanish">San Salvador de</placeName>
                <placeName xml:id="name310-3" type="standardized-Andean">Atabamba [Antabamba?</placeName>
@@ -70,14 +70,11 @@
                <location>
                   <geo>-14 21 53.13600 -072 52 40.15920</geo>
                </location>
-               <bibl xml:id="bib310-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">163</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib310-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">163</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/163/mode/2up"/></bibl>
                <bibl xml:id="bib310-3">
                   <title>AGI Lima 464</title>
                </bibl>

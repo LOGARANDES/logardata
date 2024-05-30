@@ -38,17 +38,46 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 494 with administrative information from 488</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name494-1" full="yes" type="standardized" source="#bib1-1">Almagro de Tomata</placeName>
+                    <placeName xml:id="name494-2" type="standardized-Spanish">Almagro de</placeName>
+                    <placeName xml:id="name494-3" type="standardized-Andean">Tomata</placeName>
+                    <placeName xml:id="name494-4" type="verbatim">almagro de tomata</placeName>
+                    <location type="ancient">
+                        <region type="audiencia">La Plata</region>
+                        <region type="ciudad">La Plata</region>
+                        <region type="corregimiento">Chayanta</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Chayanta</placeName>
+                            <placeName type="verbatim">chayanta</placeName>
+                        </region>
+                        <settlement type="pueblo">Almagro de Tomata</settlement>
+                    </location>
+                    <location type="modern">
+                        <country>Bolivia</country>
+                        <region type="province">not sure</region>
+                        <region type="department">Potosí</region>
+                        <settlement type="pueblo">Tomatas</settlement>
+                    </location>
                     <location type="gps">
                         <geo>-18.27030 -65.98091</geo>
                     </location>
+                    <bibl xml:id="bib488-1">
+                        <title>Levillier 1921-26 v9</title>
+                        <citedRange unit="pp">138</citedRange>
+                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/138/mode/2up"/></bibl>
+                    <bibl xml:id="bib488-2">
+                        <title>Levillier 1921-26 v35</title>
+                        <citedRange unit="pp">138</citedRange>
+                    </bibl>
+
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">9v</citedRange>

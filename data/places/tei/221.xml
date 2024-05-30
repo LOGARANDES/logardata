@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-221" source="bib221-1">
+            <place xml:id="place-221" source="bib221-1" type="reduccion">
                <placeName xml:id="name221-1" full="yes" type="standardized">San Juan de Ocros</placeName>
                <placeName xml:id="name221-2" type="standardized-Spanish">San Juan de</placeName>
                <placeName xml:id="name221-3" type="standardized-Andean">Orcos</placeName>
@@ -78,14 +78,11 @@
                   <geo>-13 23 27.42000 -073 54 55.39680</geo>
                </location>
                <note>Coordinates from: http://www.gazetteering.com/south-america/peru/region-de-ayacucho/provincia-de-huamanga/3934110-ocros.html</note>
-               <bibl xml:id="bib221-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">181</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib221-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">181</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/181/mode/2up"/></bibl>
                <bibl xml:id="bib221-3">
                   <title>AGI Lima 464</title>
                </bibl>

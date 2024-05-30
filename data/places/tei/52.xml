@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-52" source="bib52-1">
+            <place xml:id="place-52" source="bib52-1" type="reduccion">
                <placeName xml:id="name52-1" full="yes" type="standardized">La Trinidad</placeName>
                <placeName xml:id="name52-2" type="standardized-Spanish">La Trinidad</placeName>
                <placeName xml:id="name52-4" type="verbatim">la Trinidad</placeName>
@@ -70,14 +70,11 @@
                   <geo>-07 20 56.63040 -079 01 47.97840</geo>
                </location>
                <note>Maybe. A bit far from Jesús and Asunción. Coordinates from http://www.indexmundi.com/z/?lat=-7.35&amp;lon=-79.0333333&amp;t=p&amp;r=18620&amp;p=trinidad&amp;cc=pe&amp;c=peru. http://www.youtube.com/watch?v=wk8JEkuPlqo: "Trinidad, hermoso y cálido pueblo del sur cajamarquino,suf</note>
-               <bibl xml:id="bib52-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">210</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib52-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">210</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/210/mode/2up"/></bibl>
                <bibl xml:id="bib52-3">
                   <title>AGI Lima 464</title>
                </bibl>

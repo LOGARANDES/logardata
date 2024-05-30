@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-447" source="bib447-1">
+            <place xml:id="place-447" source="bib447-1" type="reduccion">
                <placeName xml:id="name447-1" full="yes" type="standardized">San Anton de Yte</placeName>
                <placeName xml:id="name447-2" type="standardized-Spanish">San Anton de</placeName>
                <placeName xml:id="name447-3" type="standardized-Andean">Yte</placeName>
@@ -77,14 +77,11 @@
                   <geo>-17 51 40.78440 -070 57 55.55520</geo>
                </location>
                <note>I had put rpt as "Ylo e Yte" - where did i get that?</note>
-               <bibl xml:id="bib447-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">173</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib447-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">173</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/173/mode/2up"/></bibl>
                <bibl xml:id="bib447-3">
                   <title>AGI Lima 464</title>
                </bibl>

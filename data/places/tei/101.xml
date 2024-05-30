@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-101" source="bib101-1">
+            <place xml:id="place-101" source="bib101-1" type="reduccion">
                <placeName xml:id="name101-1" full="yes" type="standardized">San Benito de Guaylacayan</placeName>
                <placeName xml:id="name101-2" type="standardized-Spanish">San Benito de</placeName>
                <placeName xml:id="name101-3" type="standardized-Andean">Guaylacayan</placeName>
@@ -77,14 +77,11 @@
                <location>
                   <geo>-10 14 41.11800 -077 26 05.74440</geo>
                </location>
-               <bibl xml:id="bib101-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">198</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib101-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">198</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/198/mode/2up"/></bibl>
                <bibl xml:id="bib101-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-288" source="bib288-1">
+            <place xml:id="place-288" source="bib288-1" type="reduccion">
                <placeName xml:id="name288-1" full="yes" type="standardized">San Bartolomé de Tinta</placeName>
                <placeName xml:id="name288-2" type="standardized-Spanish">San Bartolomé de</placeName>
                <placeName xml:id="name288-3" type="standardized-Andean">Tinta</placeName>
@@ -80,14 +80,11 @@
                <location>
                   <geo>-14 08 44.46240 -071 24 26.02080</geo>
                </location>
-               <bibl xml:id="bib288-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">156</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib288-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">156</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/156/mode/2up"/></bibl>
                <bibl xml:id="bib288-3">
                   <title>AGI Lima 464</title>
                </bibl>

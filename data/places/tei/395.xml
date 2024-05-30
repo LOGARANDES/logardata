@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-395" source="bib395-1">
+            <place xml:id="place-395" source="bib395-1" type="reduccion">
                <placeName xml:id="name395-1" full="yes" type="standardized">San Martin de Uchabamba</placeName>
                <placeName xml:id="name395-2" type="standardized-Spanish">San Martin de</placeName>
                <placeName xml:id="name395-3" type="standardized-Andean">Uchubamba</placeName>
@@ -65,14 +65,11 @@
                   <settlement type="pueblo">San Martin de Uchabamba</settlement>
                </location>
                <note>this is weird, I can't find anything for this location outside of GE, and when I zoom in on where GE claims Uchubamba is there's no sign of a town/populated location...</note>
-               <bibl xml:id="bib395-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">169</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib395-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">169</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/169/mode/2up"/></bibl>
                <bibl xml:id="bib395-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-380" source="bib380-1">
+            <place xml:id="place-380" source="bib380-1" type="reduccion">
                <placeName xml:id="name380-1" full="yes" type="standardized">Corral de Almaguer de Yanque</placeName>
                <placeName xml:id="name380-2" type="standardized-Spanish">Corral de</placeName>
                <placeName xml:id="name380-3" type="standardized-Andean">Yanque</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-15 38 58.18200 -071 39 31.88880</geo>
                </location>
-               <bibl xml:id="bib380-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">174</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib380-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">174</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/174/mode/2up"/></bibl>
                <bibl xml:id="bib380-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-30" source="bib30-1">
+            <place xml:id="place-30" source="bib30-1" type="reduccion">
                <placeName xml:id="name30-1" full="yes" type="standardized">Jayanca</placeName>
                <placeName xml:id="name30-3" type="standardized-Andean">Jayanca</placeName>
                <placeName xml:id="name30-4" type="verbatim">vn pueblo del mesmo nombre</placeName>
@@ -76,14 +76,11 @@
                   <geo>-06 23 32.01720 -079 49 21.92160</geo>
                </location>
                <note>G has 948 tribs / 606 pop which doesn't make sense. In any case, minus 300 tribs / 600 pop resettled in Pacora</note>
-               <bibl xml:id="bib30-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">209</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib30-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">209</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/209/mode/2up"/></bibl>
                <bibl xml:id="bib30-3">
                   <title>AGI Lima 464</title>
                </bibl>

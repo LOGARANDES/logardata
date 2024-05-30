@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-117" source="bib117-1">
+            <place xml:id="place-117" source="bib117-1" type="reduccion">
                <placeName xml:id="name117-1" full="yes" type="standardized">Nuestra Señora de la Concepcion de Vico</placeName>
                <placeName xml:id="name117-2" type="standardized-Spanish">Nuestra Señora de</placeName>
                <placeName xml:id="name117-3" type="standardized-Andean">Vico</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-10 50 27.98520 -076 14 10.05360</geo>
                </location>
-               <bibl xml:id="bib117-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">203</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib117-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">203</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/203/mode/2up"/></bibl>
                <bibl xml:id="bib117-3">
                   <title>AGI Lima 464</title>
                </bibl>

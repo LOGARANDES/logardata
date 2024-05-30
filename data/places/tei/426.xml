@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-426" source="bib426-1">
+            <place xml:id="place-426" source="bib426-1" type="reduccion">
                <placeName xml:id="name426-1" full="yes" type="standardized">Collana y Cocone</placeName>
                <placeName xml:id="name426-3" type="standardized-Andean">Collana y Cocone</placeName>
                <placeName xml:id="name426-4" type="verbatim">collana y cocone</placeName>
@@ -71,15 +72,15 @@
                   <settlement type="pueblo">Collana Municipality</settlement>
                   <note type="modern-location">Province designation tentative</note>
                </location>
+               <location type="gps">
+                  <geo>-16.66883463 -67.9663561</geo>
+               </location>
                <note>Coordinates from: http://en.wikipedia.org/wiki/Collana_Municipality - it's pretty close to Inquisivi but I don't know where the line is between close enough and too far away, so it's hard to say...</note>
-               <bibl xml:id="bib426-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">144</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib426-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">144</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/144/mode/2up"/></bibl>
                <bibl xml:id="bib426-3">
                   <title>AGI Lima 464</title>
                </bibl>

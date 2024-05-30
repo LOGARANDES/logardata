@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <meta xmlns="http://exist-db.org/xquery/repo">
     <description>Data repository for Logar: Linked Open Gazetteer of the Andean Region</description>
     <author>logar.org</author>
@@ -10,5 +9,5 @@
     <target>logar-data</target>
     <prepare>pre-install.xql</prepare>
     <finish/>
-    <deployed>2015-04-23T13:17:07.65-04:00</deployed>
-</meta>
+    
+<deployed>2024-03-22T11:40:17.722-04:00</deployed></meta>
