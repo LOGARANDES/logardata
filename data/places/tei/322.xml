@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-322" source="bib322-1" type="reduccion">
+            <place xml:id="place-322" source="bib322-1">
                <placeName xml:id="name322-1" full="yes" type="standardized">Villa de Santa Lucia de Pichigua</placeName>
                <placeName xml:id="name322-2" type="standardized-Spanish">Villa de</placeName>
                <placeName xml:id="name322-3" type="standardized-Andean">Pichigua</placeName>
@@ -78,11 +78,14 @@
                   <geo>-14 40 40.12320 -071 24 23.19120</geo>
                </location>
                <note>Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=-537946&amp;fid=4502&amp;c=peru</note>
-               
+               <bibl xml:id="bib322-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">157</citedRange>
+               </bibl>
                <bibl xml:id="bib322-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">157</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/157/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib322-3">
                   <title>AGI Lima 464</title>
                </bibl>

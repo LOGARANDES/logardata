@@ -38,49 +38,17 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 514 with administrative information from 344</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1" type="reduccion">
+                <place xml:id="place-1" source="bib1-1">
                     <placeName xml:id="name514-1" full="yes" type="standardized" source="#bib1-1">Camata</placeName>
-                    <placeName xml:id="name514-3" type="standardized-Andean">Camata</placeName>
-                    <placeName xml:id="name514-4" type="verbatim">camata</placeName>
-                    <location type="ancient">
-                        <region type="audiencia">La Plata</region>
-                        <region type="ciudad">La Paz</region>
-                        <region type="corregimiento">Larecaja</region>
-                        <region type="repartimiento">
-                            <placeName type="standardized" full="yes">Camata</placeName>
-                            <placeName type="verbatim">camata</placeName>
-                        </region>
-                        <region type="repartimiento">
-                            <placeName type="standardized" full="yes">Various</placeName>
-                            <placeName type="verbatim"/>
-                        </region>
-                        <settlement type="pueblo">Camata</settlement>
-                    </location>
-                    <location type="modern">
-                        <country>Bolivia</country>
-                        <region type="province">Muñecas</region>
-                        <region type="department">La Paz</region>
-                        <settlement type="pueblo">Camata</settlement>
-                    </location>
                     <location type="gps">
                         <geo>-15.23933 -68.74760</geo>
                     </location>
-                    
-                    <bibl xml:id="bib344-2">
-                        <title>Levillier 1921-26 v9</title>
-                        <citedRange unit="pp">145</citedRange>
-                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/145/mode/2up"/></bibl>
-                    <bibl xml:id="bib344-3">
-                        <title>AGI Lima 464</title>
-                    </bibl>
-                    
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">12v</citedRange>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-474" source="bib474-1" type="reduccion">
+            <place xml:id="place-474" source="bib474-1">
                <placeName xml:id="name474-1" full="yes" type="standardized">Montalban de Tarabuco</placeName>
                <placeName xml:id="name474-2" type="standardized-Spanish">Montalban de</placeName>
                <placeName xml:id="name474-3" type="standardized-Andean">Tarabuco</placeName>
@@ -75,11 +75,14 @@
                <location>
                   <geo>-19 10 57.51840 -064 54 53.60760</geo>
                </location>
-               
+               <bibl xml:id="bib474-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">134</citedRange>
+               </bibl>
                <bibl xml:id="bib474-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">134</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/134/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib474-3">
                   <title>AGI Lima 464</title>
                </bibl>

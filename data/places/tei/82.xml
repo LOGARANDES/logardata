@@ -1,0 +1,95 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="es">Cazma la Alta y Moche</title>
+            <title level="m">LOGAR Linked Open Gazetteer of the Andean Region</title>
+            <sponsor>LOGAR Linked Open Gazetteer of the Andean Region</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+            <principal>Steven A. Wernke</principal>
+            <principal>Akira Saito</principal>
+            <editor role="creator">Steven A. Wernke</editor>
+            <editor role="creator">Jeremy Mumford</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#swernke">Steven A. Wernke</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#jmumford">Jeremy Mumford</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>LOGAR Linked Open Gazetteer of the Andean Region</authority>
+            <idno type="URI">http://logarandes.org/place/82/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2016-05-09-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the LOGAR guidelines. 
+                        Documentation available at: <ref target="http://logarandes.org/documentation">http://logarandes.org/documentation</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-82" source="bib82-1">
+               <placeName xml:id="name82-1" full="yes" type="standardized">Cazma la Alta y Moche</placeName>
+               <placeName xml:id="name82-3" type="standardized-Andean">Moche</placeName>
+               <placeName xml:id="name82-4" type="verbatim">vn pueblo del mesmo nombre</placeName>
+               <location type="ancient">
+                  <region type="audiencia">Lima</region>
+                  <region type="ciudad">Trujillo</region>
+                  <region type="corregimiento">V. de Santa</region>
+                  <region type="repartimiento">
+                     <placeName type="standardized" full="yes">Cazma la Alta y Moche</placeName>
+                     <placeName type="verbatim">cazma la alta e moche</placeName>
+                  </region>
+                  <settlement type="pueblo">Cazma la Alta y Moche</settlement>
+               </location>
+               <location type="gps">
+                  <geo>-9.50260685 -78.25864067</geo>
+               </location>
+               <location>
+                  <geo>-09 30 09.38520 -078 15 31.10760</geo>
+               </location>
+               <note>Casma is the capital of Prov. Casma... Should I pin that? And if so, what should I do for Casma la Baja...?</note>
+               <bibl xml:id="bib82-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">206</citedRange>
+               </bibl>
+               <bibl xml:id="bib82-2">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">206</citedRange>
+               </bibl>
+               <bibl xml:id="bib82-3">
+                  <title>AGI Lima 464</title>
+               </bibl>
+               <idno type="URI">http://logarandes.org/place/82</idno>
+               <note type="administrative" subtype="Moved">1</note>
+               <note type="administrative" subtype="Move_ref">Digital Peru</note>
+               <note type="administrative" subtype="MR_other_notes">https://sites.google.com/site/casmaalmundo/historia</note>
+               <note type="administrative" subtype="Moved_by">Kohut</note>
+               <note type="administrative" subtype="Move_date">3/29/2016</note>
+               <note type="administrative" subtype="Delete_2">0</note>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

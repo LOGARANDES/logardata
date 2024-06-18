@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-140" source="bib140-1" type="reduccion">
+            <place xml:id="place-140" source="bib140-1">
                <placeName xml:id="name140-1" full="yes" type="standardized">Guamantanga</placeName>
                <placeName xml:id="name140-3" type="standardized-Andean">Guamantanga</placeName>
                <placeName xml:id="name140-4" type="verbatim">Guamantanga</placeName>
@@ -76,11 +76,14 @@
                   <geo>-11 29 56.37480 -076 44 56.90400</geo>
                </location>
                <note>(town is capital of Huamantanga district)</note>
-               
+               <bibl xml:id="bib140-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">192</citedRange>
+               </bibl>
                <bibl xml:id="bib140-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">192</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/192/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib140-3">
                   <title>AGI Lima 464</title>
                </bibl>

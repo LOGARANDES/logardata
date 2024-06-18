@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-397" source="bib397-1" type="reduccion">
+            <place xml:id="place-397" source="bib397-1">
                <placeName xml:id="name397-1" full="yes" type="standardized">Villa de Cáceres [de Achacache]</placeName>
                <placeName xml:id="name397-2" type="standardized-Spanish">Villa de</placeName>
                <placeName xml:id="name397-3" type="standardized-Andean">[de Achacache]</placeName>
@@ -79,11 +79,14 @@
                <location>
                   <geo>-16 02 38.42160 -068 41 06.10440</geo>
                </location>
-               
+               <bibl xml:id="bib397-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">147</citedRange>
+               </bibl>
                <bibl xml:id="bib397-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">147</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/147/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib397-3">
                   <title>AGI Lima 464</title>
                </bibl>

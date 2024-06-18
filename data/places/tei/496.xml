@@ -38,50 +38,17 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 496 with administrative information from 459</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1" type="reduccion">
+                <place xml:id="place-1" source="bib1-1">
                     <placeName xml:id="name496-1" full="yes" type="standardized" source="#bib1-1">Caracara</placeName>
-                    <placeName xml:id="name496-3" type="standardized-Andean">Caracara</placeName>
-                    <placeName xml:id="name496-4" type="verbatim">çaraçara</placeName>
-                    <location type="ancient">
-                        <region type="audiencia">La Plata</region>
-                        <region type="ciudad">La Plata</region>
-                        <region type="corregimiento">Chayanta</region>
-                        <region type="repartimiento">
-                            <placeName type="standardized" full="yes">Caracara</placeName>
-                            <placeName type="verbatim">çaraçara</placeName>
-                        </region>
-                        <settlement type="pueblo">Caracara</settlement>
-                    </location>
-                    <location type="modern">
-                        <country>Bolivia</country>
-                        <region type="province">Rafael Bustillo</region>
-                        <region type="department">Potosí</region>
-                        <settlement type="pueblo">Cara Cara</settlement>
-                    </location>
                     <location type="gps">
                         <geo>-18.69988 -65.63240</geo>
                     </location>
-                    <population>
-                        <desc>?</desc>
-                    </population>
-                    <population source="bib496-1" type="tributaries">
-                        <desc>176</desc>
-                    </population>
-                    <bibl xml:id="bib496-1">
-                        <title>Levillier 1921-26 v9</title>
-                        <citedRange unit="pp">138</citedRange>
-                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/138/mode/2up"/></bibl>
-                    <bibl xml:id="bib496-2">
-                        <title>Levillier 1921-26 v37</title>
-                        <citedRange unit="pp">138</citedRange>
-                    </bibl>
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">10r</citedRange>

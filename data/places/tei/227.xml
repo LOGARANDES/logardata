@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-227" source="bib227-1" type="reduccion">
+            <place xml:id="place-227" source="bib227-1">
                <placeName xml:id="name227-1" full="yes" type="standardized">Pampaconga</placeName>
                <placeName xml:id="name227-3" type="standardized-Andean">Pampaconga</placeName>
                <placeName xml:id="name227-4" type="verbatim">Pampaconga</placeName>
@@ -76,11 +76,14 @@
                   <geo>-13 26 32.29440 -072 24 07.41960</geo>
                </location>
                <note>There seems to be a village named Pampaconga near Limatambo, which is in the right area; maybe pin Limatambo for now. Mercurio Peruano writes "Limac. o Pampac." suggesting they're essentially the same place. Pin Limatambo.</note>
-               
+               <bibl xml:id="bib227-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">168</citedRange>
+               </bibl>
                <bibl xml:id="bib227-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">168</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/168/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib227-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-167" source="bib167-1" type="reduccion">
+            <place xml:id="place-167" source="bib167-1">
                <placeName xml:id="name167-1" full="yes" type="standardized">San Pedro de Guancayo [Huancayre]</placeName>
                <placeName xml:id="name167-2" type="standardized-Spanish">San Pedro de</placeName>
                <placeName xml:id="name167-3" type="standardized-Andean">Guancayo [Huancayre]</placeName>
@@ -78,11 +78,14 @@
                   <geo>-12 07 49.36440 -076 12 59.02200</geo>
                </location>
                <note>Coordinates from: http://mapcarta.com/29047790</note>
-               
+               <bibl xml:id="bib167-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">191</citedRange>
+               </bibl>
                <bibl xml:id="bib167-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">191</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/191/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib167-3">
                   <title>AGI Lima 464</title>
                </bibl>

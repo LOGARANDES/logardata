@@ -43,14 +43,13 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-396" source="bib396-1" type="reduccion">
+            <place xml:id="place-396" source="bib396-1">
                <placeName xml:id="name396-1" full="yes" type="standardized">San Juan de Challana</placeName>
                <placeName xml:id="name396-2" type="standardized-Spanish">San Juan de</placeName>
                <placeName xml:id="name396-3" type="standardized-Andean">Challana</placeName>
@@ -71,14 +70,14 @@
                   <region type="department">La Paz</region>
                   <settlement type="pueblo">Challana</settlement>
                </location>
-               <location type="gps">
-                  <geo>-15.50510821 -67.8682126</geo>
-               </location>
-               
+               <bibl xml:id="bib396-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">144</citedRange>
+               </bibl>
                <bibl xml:id="bib396-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">144</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/144/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib396-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-253" source="bib253-1" type="reduccion">
+            <place xml:id="place-253" source="bib253-1">
                <placeName xml:id="name253-1" full="yes" type="standardized">[San Francisco de] Sangayaico</placeName>
                <placeName xml:id="name253-2" type="standardized-Spanish">[San Francisco de]</placeName>
                <placeName xml:id="name253-3" type="standardized-Andean">Sangayaico</placeName>
@@ -71,11 +71,14 @@
                   <geo>-13 47 42.38160 -075 14 50.50680</geo>
                </location>
                <note>Coordinates from: http://wikimapia.org/#lang=en&amp;lat=-13.795521&amp;lon=-75.247142&amp;z=17&amp;m=b</note>
-               
+               <bibl xml:id="bib253-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">180</citedRange>
+               </bibl>
                <bibl xml:id="bib253-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">180</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/180/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib253-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-112" source="bib112-1" type="reduccion">
+            <place xml:id="place-112" source="bib112-1">
                <placeName xml:id="name112-1" full="yes" type="standardized">Santa Maria Magdalena de Chincha</placeName>
                <placeName xml:id="name112-2" type="standardized-Spanish">Santa Maria Magdalena de</placeName>
                <placeName xml:id="name112-3" type="standardized-Andean">Chincha</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-10 28 29.15760 -076 09 06.82560</geo>
                </location>
-               
+               <bibl xml:id="bib112-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">203</citedRange>
+               </bibl>
                <bibl xml:id="bib112-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">203</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/203/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib112-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-158" source="bib158-1" type="reduccion">
+            <place xml:id="place-158" source="bib158-1">
                <placeName xml:id="name158-1" full="yes" type="standardized">Asuncion de Mito</placeName>
                <placeName xml:id="name158-2" type="standardized-Spanish">Asuncion de</placeName>
                <placeName xml:id="name158-3" type="standardized-Andean">Mito</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-11 56 12.95520 -075 20 19.94280</geo>
                </location>
-               
+               <bibl xml:id="bib158-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">190</citedRange>
+               </bibl>
                <bibl xml:id="bib158-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">190</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/190/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib158-3">
                   <title>AGI Lima 464</title>
                </bibl>

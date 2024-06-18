@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-373" source="bib373-1" type="reduccion">
+            <place xml:id="place-373" source="bib373-1">
                <placeName xml:id="name373-1" full="yes" type="standardized">Guaca [Huata?]</placeName>
                <placeName xml:id="name373-3" type="standardized-Andean">Guaca [Huata?]</placeName>
                <placeName xml:id="name373-4" type="verbatim">guaca</placeName>
@@ -76,11 +76,14 @@
                   <geo>-15 36 54.92160 -069 58 17.28480</geo>
                </location>
                <note>Where is this, I wonder. Maybe Huata? http://es.wikipedia.org/wiki/Distrito_de_Huata_(Puno)</note>
-               
+               <bibl xml:id="bib373-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">152</citedRange>
+               </bibl>
                <bibl xml:id="bib373-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">152</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/152/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib373-3">
                   <title>AGI Lima 464</title>
                </bibl>

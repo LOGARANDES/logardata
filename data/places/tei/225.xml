@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-225" source="bib225-1" type="reduccion">
+            <place xml:id="place-225" source="bib225-1">
                <placeName xml:id="name225-1" full="yes" type="standardized">San Nicolas de Sorite</placeName>
                <placeName xml:id="name225-2" type="standardized-Spanish">San Nicolas de</placeName>
                <placeName xml:id="name225-3" type="standardized-Andean">Sorite</placeName>
@@ -77,11 +77,14 @@
                   <geo>-13 27 19.88640 -072 15 19.47600</geo>
                </location>
                <note>Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=-550368&amp;fid=4508&amp;c=peru</note>
-               
+               <bibl xml:id="bib225-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">168</citedRange>
+               </bibl>
                <bibl xml:id="bib225-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">168</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/168/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib225-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -1,0 +1,91 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="es">Villanueva de la Serena de Totora</title>
+            <title level="m">LOGAR Linked Open Gazetteer of the Andean Region</title>
+            <sponsor>LOGAR Linked Open Gazetteer of the Andean Region</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+            <principal>Steven A. Wernke</principal>
+            <principal>Akira Saito</principal>
+            <editor role="creator">Steven A. Wernke</editor>
+            <editor role="creator">Jeremy Mumford</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#swernke">Steven A. Wernke</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#jmumford">Jeremy Mumford</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>LOGAR Linked Open Gazetteer of the Andean Region</authority>
+            <idno type="URI">http://logarandes.org/place/441/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2016-05-09-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the LOGAR guidelines. 
+                        Documentation available at: <ref target="http://logarandes.org/documentation">http://logarandes.org/documentation</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-441" source="bib441-1">
+               <placeName xml:id="name441-1" full="yes" type="standardized">Villanueva de la Serena de Totora</placeName>
+               <placeName xml:id="name441-2" type="standardized-Spanish">Villanueva de</placeName>
+               <placeName xml:id="name441-3" type="standardized-Andean">Totora</placeName>
+               <placeName xml:id="name441-4" type="verbatim">Villanueua de la serena</placeName>
+               <location type="ancient">
+                  <region type="audiencia">La Plata</region>
+                  <region type="ciudad">La Plata</region>
+                  <region type="corregimiento">Carangas</region>
+                  <region type="repartimiento">
+                     <placeName type="standardized" full="yes">Totora</placeName>
+                     <placeName type="verbatim">totora</placeName>
+                  </region>
+                  <settlement type="pueblo">Villanueva de la Serena de Totora</settlement>
+               </location>
+               <population>
+                  <desc>7036</desc>
+               </population>
+               <population source="bib441-1" type="tributaries">
+                  <desc>1338</desc>
+               </population>
+               <note>IndexMundi shows lots of Totora's in Bolivia, but none in Dept. Oruro.</note>
+               <bibl xml:id="bib441-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">139-140</citedRange>
+               </bibl>
+               <bibl xml:id="bib441-2">
+                  <title>Levillier 1921-26 v56</title>
+                  <citedRange unit="pp">139-140</citedRange>
+               </bibl>
+               <bibl xml:id="bib441-3">
+                  <title>AGI Lima 464</title>
+               </bibl>
+               <idno type="URI">http://logarandes.org/place/441</idno>
+               <note type="administrative" subtype="Moved">0</note>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

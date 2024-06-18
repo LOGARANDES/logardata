@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-484" source="bib484-1" type="reduccion">
+            <place xml:id="place-484" source="bib484-1">
                <placeName xml:id="name484-1" full="yes" type="standardized">Nuestra Señora de la Concepción [de Toropalca?]</placeName>
                <placeName xml:id="name484-2" type="standardized-Spanish">Nuestra Señora de</placeName>
                <placeName xml:id="name484-3" type="standardized-Andean">[Toropalca?]</placeName>
@@ -79,7 +79,7 @@
                <bibl xml:id="bib484-1">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">136</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/136/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib484-2">
                   <title>Levillier 1921-26 v19</title>
                   <citedRange unit="pp">136</citedRange>

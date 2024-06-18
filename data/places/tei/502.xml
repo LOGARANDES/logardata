@@ -38,49 +38,17 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 502 with administrative information from 487</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1" type="reduccion">
+                <place xml:id="place-1" source="bib1-1">
                     <placeName xml:id="name502-1" full="yes" type="standardized" source="#bib1-1">Santiago de Ycaca</placeName>
-                    <placeName xml:id="name502-2" type="standardized-Spanish">Santiago de</placeName>
-                    <placeName xml:id="name502-3" type="standardized-Andean">Ycaca [Talina?]</placeName>
-                    <placeName xml:id="name502-4" type="verbatim">santiago de ycaca</placeName>
-                    <location type="ancient">
-                        <region type="audiencia">La Plata</region>
-                        <region type="ciudad">La Plata</region>
-                        <region type="corregimiento">Tarija</region>
-                        <region type="repartimiento">
-                            <placeName type="standardized" full="yes">Chichas</placeName>
-                            <placeName type="verbatim">chichas</placeName>
-                        </region>
-                        <settlement type="pueblo">Santiago de Ycaca [Talina?]</settlement>
-                    </location>
-                    <location type="modern">
-                        <country>Bolivia</country>
-                        <region type="province">Sur Chichas</region>
-                        <region type="department">Potosí</region>
-                        <settlement type="pueblo">Talina</settlement>
-                    </location>
                     <location type="gps">
                         <geo>-20.81784 -65.65860</geo>
                     </location>
-                    <note>Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=-984269&amp;fid=650&amp;c=bolivia - thought I'd give it a try as this location is much closer to Calcha</note>
-                    <bibl xml:id="bib487-1">
-                        <title>Levillier 1921-26 v9</title>
-                        <citedRange unit="pp">135</citedRange>
-                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/135/mode/2up"/></bibl>
-                    <bibl xml:id="bib487-2">
-                        <title>Levillier 1921-26 v12</title>
-                        <citedRange unit="pp">135</citedRange>
-                    </bibl>
-                    <bibl xml:id="bib487-3">
-                        <title>AGI Lima 464</title>
-                    </bibl>
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">8r</citedRange>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-78" source="bib78-1" type="reduccion">
+            <place xml:id="place-78" source="bib78-1">
                <placeName xml:id="name78-1" full="yes" type="standardized">Guambacho</placeName>
                <placeName xml:id="name78-3" type="standardized-Andean">Guambacho</placeName>
                <placeName xml:id="name78-4" type="verbatim">guambacho</placeName>
@@ -79,11 +79,14 @@
                <location>
                   <geo>-09 15 51.00840 -078 25 29.71200</geo>
                </location>
-               
+               <bibl xml:id="bib78-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">207</citedRange>
+               </bibl>
                <bibl xml:id="bib78-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">207</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/207/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib78-3">
                   <title>AGI Lima 464</title>
                </bibl>

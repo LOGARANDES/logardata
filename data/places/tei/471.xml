@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-471" source="bib471-1" type="reduccion">
+            <place xml:id="place-471" source="bib471-1">
                <placeName xml:id="name471-1" full="yes" type="standardized">San Pedro de Condocondo</placeName>
                <placeName xml:id="name471-2" type="standardized-Spanish">San Pedro de</placeName>
                <placeName xml:id="name471-3" type="standardized-Andean">Condocondo</placeName>
@@ -79,7 +79,7 @@
                <bibl xml:id="bib471-1">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">139</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/139/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib471-2">
                   <title>Levillier 1921-26 v54</title>
                   <citedRange unit="pp">139</citedRange>

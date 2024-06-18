@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-290" source="bib290-1" type="reduccion">
+            <place xml:id="place-290" source="bib290-1">
                <placeName xml:id="name290-1" full="yes" type="standardized">Nuestra Señora de la Concepcion de Soraya</placeName>
                <placeName xml:id="name290-2" type="standardized-Spanish">Nuestra Señora de</placeName>
                <placeName xml:id="name290-3" type="standardized-Andean">Soraya</placeName>
@@ -77,11 +77,14 @@
                   <geo>-14 09 53.89200 -073 18 53.85600</geo>
                </location>
                <note>Coordinates from: http://en.wikipedia.org/wiki/Soraya_District</note>
-               
+               <bibl xml:id="bib290-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">163</citedRange>
+               </bibl>
                <bibl xml:id="bib290-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">163</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/163/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib290-3">
                   <title>AGI Lima 464</title>
                </bibl>

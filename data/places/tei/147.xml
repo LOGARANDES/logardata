@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-147" source="bib147-1" type="reduccion">
+            <place xml:id="place-147" source="bib147-1">
                <placeName xml:id="name147-1" full="yes" type="standardized">Cochangara</placeName>
                <placeName xml:id="name147-3" type="standardized-Andean">Cochangara</placeName>
                <placeName xml:id="name147-4" type="verbatim">cochangara</placeName>
@@ -81,11 +81,14 @@
                   <geo>-12 02 49.29720 -075 23 37.08960</geo>
                </location>
                <note>Coordinates from: http://www.postalcodedb.com/12465_Cochangara_Peru.html</note>
-               
+               <bibl xml:id="bib147-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">191</citedRange>
+               </bibl>
                <bibl xml:id="bib147-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">191</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/191/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib147-3">
                   <title>AGI Lima 464</title>
                </bibl>

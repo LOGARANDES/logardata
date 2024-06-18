@@ -48,15 +48,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: The modern town "Salas" is incorrect and the correct name for the modern town is "Penachi"</change>
          <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2016-05-09-04:00">Location corrections provided by Akira Saito of the National Museum of Ethnology, Japan and his team. </change>
             <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-27" source="bib27-1" type="reduccion">
+            <place xml:id="place-27" source="bib27-1">
                <placeName xml:id="name27-1" full="yes" type="standardized">San Matheo</placeName>
                <placeName xml:id="name27-2" type="standardized-Spanish">San Matheo</placeName>
                <placeName xml:id="name27-4" type="verbatim">san matheo</placeName>
@@ -74,7 +73,7 @@
                   <country>Peru</country>
                   <region type="province">Lambayeque</region>
                   <region type="department">Lambayeque</region>
-                  <settlement type="pueblo">Penachi</settlement>
+                  <settlement type="pueblo">Salas</settlement>
                </location>
                <location type="gps" source="#bib27-3">
                         <geo>-6.16805 -79.47387</geo>
@@ -83,11 +82,14 @@
                   <geo>-06 16 26.47560 -079 36 20.64240</geo>
                </location>
                <note>Alejandro Diez confirms, S. Mateo de Salas. There's also a Penachi, which started as an anejo</note>
-               
+               <bibl xml:id="bib27-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">210</citedRange>
+               </bibl>
                <bibl xml:id="bib27-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">210</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/210/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib27-3">
                   <title>AGI Lima 464</title>
                <citedRange unit="part">44v</citedRange>

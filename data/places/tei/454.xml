@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-454" source="bib454-1" type="reduccion">
+            <place xml:id="place-454" source="bib454-1">
                <placeName xml:id="name454-1" full="yes" type="standardized">Ayquile</placeName>
                <placeName xml:id="name454-3" type="standardized-Andean">Ayquile</placeName>
                <placeName xml:id="name454-4" type="verbatim">ayquile</placeName>
@@ -84,7 +84,7 @@
                <bibl xml:id="bib454-1">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">136</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/136/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib454-2">
                   <title>Levillier 1921-26 v18</title>
                   <citedRange unit="pp">136</citedRange>

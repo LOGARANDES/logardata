@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="es">Hatun [San Francisco de Huantán?]</title>
+            <title level="a" xml:lang="es">[Santo Domingo de] Yauyos</title>
             <title level="m">LOGAR Linked Open Gazetteer of the Andean Region</title>
             <sponsor>LOGAR Linked Open Gazetteer of the Andean Region</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -43,15 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Correct the name of town in 182 to Hatunyauyos</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-182" source="bib182-1" type="reduccion">
-               <placeName xml:id="name180-1" full="yes" type="standardized">Hatun [San Francisco de Huantán?]</placeName>
+            <place xml:id="place-182" source="bib182-1">
+               <placeName xml:id="name182-1" full="yes" type="standardized">[Santo Domingo de] Yauyos</placeName>
                <placeName xml:id="name182-2" type="standardized-Spanish">[Santo Domingo de]</placeName>
                <placeName xml:id="name182-3" type="standardized-Andean">Yauyos</placeName>
                <placeName xml:id="name182-4" type="verbatim">yauyos</placeName>
@@ -82,11 +81,14 @@
                   <geo>-12 27 34.83720 -075 55 07.32720</geo>
                </location>
                <note>Coordinates from: http://en.wikipedia.org/wiki/Yauyos (GE seems to only have a location for the Province, oddly)</note>
-               
+               <bibl xml:id="bib182-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">192</citedRange>
+               </bibl>
                <bibl xml:id="bib182-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">192</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/192/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib182-3">
                   <title>AGI Lima 464</title>
                </bibl>

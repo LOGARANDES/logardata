@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-401" source="bib401-1" type="reduccion">
+            <place xml:id="place-401" source="bib401-1">
                <placeName xml:id="name401-1" full="yes" type="standardized">Villa de Mérida [de Guarina]</placeName>
                <placeName xml:id="name401-2" type="standardized-Spanish">Villa de</placeName>
                <placeName xml:id="name401-3" type="standardized-Andean">[de Guarina]</placeName>
@@ -81,11 +81,14 @@
                <location>
                   <geo>-16 11 26.59920 -068 36 03.57120</geo>
                </location>
-               
+               <bibl xml:id="bib401-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">147</citedRange>
+               </bibl>
                <bibl xml:id="bib401-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">147</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/147/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib401-3">
                   <title>AGI Lima 464</title>
                </bibl>

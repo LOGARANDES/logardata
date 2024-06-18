@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-291" source="bib291-1" type="reduccion">
+            <place xml:id="place-291" source="bib291-1">
                <placeName xml:id="name291-1" full="yes" type="standardized">San Cristobal Pambachiri</placeName>
                <placeName xml:id="name291-2" type="standardized-Spanish">San Cristobal</placeName>
                <placeName xml:id="name291-3" type="standardized-Andean">Pampachiri</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-14 11 13.43040 -073 32 40.43760</geo>
                </location>
-               
+               <bibl xml:id="bib291-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">169</citedRange>
+               </bibl>
                <bibl xml:id="bib291-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">169</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/169/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib291-3">
                   <title>AGI Lima 464</title>
                </bibl>

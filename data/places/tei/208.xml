@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-208" source="bib208-1" type="reduccion">
+            <place xml:id="place-208" source="bib208-1">
                <placeName xml:id="name208-1" full="yes" type="standardized">San Gerónimo de Chancabamba</placeName>
                <placeName xml:id="name208-2" type="standardized-Spanish">San Gerónimo</placeName>
                <placeName xml:id="name208-3" type="standardized-Andean">Chancabamba</placeName>
@@ -71,11 +71,14 @@
                   <settlement type="pueblo">Chancabamba</settlement>
                </location>
                <note>Coordinates from: http://www.postalcodedb.com/08720_Chancabamba_Peru.html</note>
-               
+               <bibl xml:id="bib208-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">164</citedRange>
+               </bibl>
                <bibl xml:id="bib208-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">164</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/164/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib208-3">
                   <title>AGI Lima 464</title>
                </bibl>

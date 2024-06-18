@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-427" source="bib427-1" type="reduccion">
+            <place xml:id="place-427" source="bib427-1">
                <placeName xml:id="name427-1" full="yes" type="standardized">Santiago [de Calamarca]</placeName>
                <placeName xml:id="name427-2" type="standardized-Spanish">Santiago</placeName>
                <placeName xml:id="name427-3" type="standardized-Andean">[de Calamarca]</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-16 54 21.22200 -068 06 54.94680</geo>
                </location>
-               
+               <bibl xml:id="bib427-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">143</citedRange>
+               </bibl>
                <bibl xml:id="bib427-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">143</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/143/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib427-3">
                   <title>AGI Lima 464</title>
                </bibl>

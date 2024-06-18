@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-301" source="bib301-1" type="reduccion">
+            <place xml:id="place-301" source="bib301-1">
                <placeName xml:id="name301-1" full="yes" type="standardized">Veracruz de Cavana</placeName>
                <placeName xml:id="name301-2" type="standardized-Spanish">Veracruz de</placeName>
                <placeName xml:id="name301-3" type="standardized-Andean">Cabana</placeName>
@@ -77,11 +77,14 @@
                   <geo>-14 17 18.84840 -073 58 01.80840</geo>
                </location>
                <note>Coordinates from: http://www.gomapper.com/travel/where-is/cabana-ayacucho-peru-0-located.html</note>
-               
+               <bibl xml:id="bib301-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">179</citedRange>
+               </bibl>
                <bibl xml:id="bib301-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">179</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/179/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib301-3">
                   <title>AGI Lima 464</title>
                </bibl>

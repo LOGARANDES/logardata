@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-237" source="bib237-1" type="reduccion">
+            <place xml:id="place-237" source="bib237-1">
                <placeName xml:id="name237-1" full="yes" type="standardized">Nuestra Señora de la Visitacion de Sumaro</placeName>
                <placeName xml:id="name237-2" type="standardized-Spanish">Nuestra Señora de</placeName>
                <placeName xml:id="name237-3" type="standardized-Andean">Sumaro</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-13 37 55.61040 -072 16 24.80880</geo>
                </location>
-               
+               <bibl xml:id="bib237-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">168</citedRange>
+               </bibl>
                <bibl xml:id="bib237-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">168</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/168/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib237-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -43,14 +43,13 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-433" source="bib433-1" type="reduccion">
+            <place xml:id="place-433" source="bib433-1">
                <placeName xml:id="name433-1" full="yes" type="standardized">La Chimba</placeName>
                <placeName xml:id="name433-2" type="standardized-Spanish">La Chimba</placeName>
                <placeName xml:id="name433-3" type="standardized-Andean">La Chimba</placeName>
@@ -72,15 +71,15 @@
                   <settlement type="pueblo">Cayma District</settlement>
                   <note type="modern-location">Not a capital</note>
                </location>
-               <location type="gps">
-                  <geo>-16.38709312 -71.54276103</geo>
-               </location>
                <note>CAYMA, IN OUTSKIRTS OF AREQUIPA CITY. http://es.wikipedia.org/wiki/Evoluci%C3%B3n_hist%C3%B3rica_urbana_de_Arequipa: "Cerca de Yanahuara, a una distancia cercanay en un terreno accidentado, se forma el caserio de Cayma...; el Virrey Toledo fundo allí la</note>
-               
+               <bibl xml:id="bib433-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">170</citedRange>
+               </bibl>
                <bibl xml:id="bib433-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">170</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/170/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib433-3">
                   <title>AGI Lima 464</title>
                </bibl>

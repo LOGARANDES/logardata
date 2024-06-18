@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-105" source="bib105-1" type="reduccion">
+            <place xml:id="place-105" source="bib105-1">
                <placeName xml:id="name105-1" full="yes" type="standardized">San Francisco de Moxca</placeName>
                <placeName xml:id="name105-2" type="standardized-Spanish">San Francisco de</placeName>
                <placeName xml:id="name105-3" type="standardized-Andean">Moxca</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-10 20 34.35720 -076 17 30.98760</geo>
                </location>
-               
+               <bibl xml:id="bib105-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">203</citedRange>
+               </bibl>
                <bibl xml:id="bib105-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">203</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/203/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib105-3">
                   <title>AGI Lima 464</title>
                </bibl>

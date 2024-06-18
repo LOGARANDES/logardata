@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-206" source="bib206-1" type="reduccion">
+            <place xml:id="place-206" source="bib206-1">
                <placeName xml:id="name206-1" full="yes" type="standardized">La Natividad de Quinua</placeName>
                <placeName xml:id="name206-2" type="standardized-Spanish">La Natividad de</placeName>
                <placeName xml:id="name206-3" type="standardized-Andean">Quinua</placeName>
@@ -71,11 +71,14 @@
                   <geo>-13 02 56.41080 -074 08 21.98760</geo>
                </location>
                <note>Removed pin for Quinua, Dept. Ayacucho, Prov. Huamanga - can't find a location in Huancavelica called Natividad</note>
-               
+               <bibl xml:id="bib206-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">182</citedRange>
+               </bibl>
                <bibl xml:id="bib206-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">182</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/182/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib206-3">
                   <title>AGI Lima 464</title>
                </bibl>

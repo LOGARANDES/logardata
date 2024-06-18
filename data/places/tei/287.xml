@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-287" source="bib287-1" type="reduccion">
+            <place xml:id="place-287" source="bib287-1">
                <placeName xml:id="name287-1" full="yes" type="standardized">San Nicolas [de Combapata?]</placeName>
                <placeName xml:id="name287-2" type="standardized-Spanish">San Nicolas [de</placeName>
                <placeName xml:id="name287-3" type="standardized-Andean">[Combapata?]</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-14 06 05.74920 -071 25 46.63920</geo>
                </location>
-               
+               <bibl xml:id="bib287-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">156</citedRange>
+               </bibl>
                <bibl xml:id="bib287-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">156</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/156/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib287-3">
                   <title>AGI Lima 464</title>
                </bibl>

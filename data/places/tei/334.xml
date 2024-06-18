@@ -50,12 +50,12 @@
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2016-05-09-04:00">Location corrections provided by Akira Saito of the National Museum of Ethnology, Japan and his team. </change>
             <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-334" source="bib334-1" type="reduccion">
+            <place xml:id="place-334" source="bib334-1">
                <placeName xml:id="name334-1" full="yes" type="standardized">Santa Ana de Guaycaguacho</placeName>
                <placeName xml:id="name334-2" type="standardized-Spanish">Santa Ana de</placeName>
                <placeName xml:id="name334-3" type="standardized-Andean">Guaycaguacho</placeName>
@@ -83,11 +83,14 @@
                   <geo>-14 44 49.39440 -074 07 16.14360</geo>
                </location>
                <note>Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=-543503&amp;fid=4584&amp;c=peru</note>
-               
+               <bibl xml:id="bib334-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">179</citedRange>
+               </bibl>
                <bibl xml:id="bib334-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">179</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/179/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib334-3">
                   <title>AGI Lima 464</title>
                <citedRange unit="part">29v</citedRange>

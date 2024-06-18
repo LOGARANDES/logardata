@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-156" source="bib156-1" type="reduccion">
+            <place xml:id="place-156" source="bib156-1">
                <placeName xml:id="name156-1" full="yes" type="standardized">San Pedro de Mama</placeName>
                <placeName xml:id="name156-2" type="standardized-Spanish">San Pedro de</placeName>
                <placeName xml:id="name156-4" type="verbatim">san pedro de mama</placeName>
@@ -76,11 +76,14 @@
                   <geo>-11 55 25.70160 -076 39 53.86320</geo>
                </location>
                <note>I think this is the place called Ricardo Palma, at the fork of the rivers Rimac and Santa Eulalia, which appears in GE as CAFAE-MININTER (I have no idea what that means. (See http://www.peruturismo.com/CateInfo.asp?CateInfoI=8). Pin as Ricardo Palma.</note>
-               
+               <bibl xml:id="bib156-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">191</citedRange>
+               </bibl>
                <bibl xml:id="bib156-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">191</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/191/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib156-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-362" source="bib362-1" type="reduccion">
+            <place xml:id="place-362" source="bib362-1">
                <placeName xml:id="name362-1" full="yes" type="standardized">Valdepeñas</placeName>
                <placeName xml:id="name362-2" type="standardized-Spanish">Valde</placeName>
                <placeName xml:id="name362-4" type="verbatim">Valdepeñas</placeName>
@@ -76,11 +76,14 @@
                   <geo>-15 29 55.98600 -072 21 20.28600</geo>
                </location>
                <note>can't find anythign for Valdepeñas in Peru</note>
-               
+               <bibl xml:id="bib362-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">173</citedRange>
+               </bibl>
                <bibl xml:id="bib362-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">173</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/173/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib362-3">
                   <title>AGI Lima 464</title>
                </bibl>

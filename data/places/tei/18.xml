@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-18" source="bib18-1" type="reduccion">
+            <place xml:id="place-18" source="bib18-1">
                <placeName xml:id="name18-1" full="yes" type="standardized">Santiago de Yamon</placeName>
                <placeName xml:id="name18-2" type="standardized-Spanish">Santiago de</placeName>
                <placeName xml:id="name18-3" type="standardized-Andean">Yamon</placeName>
@@ -77,11 +77,14 @@
                   <geo>-06 03 02.15640 -078 31 42.82680</geo>
                </location>
                <note>Closer to Bagua than to Longuita.</note>
-               
+               <bibl xml:id="bib18-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">218</citedRange>
+               </bibl>
                <bibl xml:id="bib18-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">218</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/218/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib18-3">
                   <title>AGI Lima 464</title>
                </bibl>

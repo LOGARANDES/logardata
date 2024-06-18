@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-424" source="bib424-1" type="reduccion">
+            <place xml:id="place-424" source="bib424-1">
                <placeName xml:id="name424-1" full="yes" type="standardized">[Jesús de] Machaca la Chica</placeName>
                <placeName xml:id="name424-2" type="standardized-Spanish">[Jesús de]</placeName>
                <placeName xml:id="name424-3" type="standardized-Andean">Machaca la Chica</placeName>
@@ -83,11 +83,14 @@
                   <geo>-16 44 37.95360 -068 48 23.42880</geo>
                </location>
                <note>Found this website: http://machaca.cebem.org/pages/historia_colonial.php on the history of Machaca - looks like Machaca la Chica turned into Jesus de Machaca</note>
-               
+               <bibl xml:id="bib424-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">145</citedRange>
+               </bibl>
                <bibl xml:id="bib424-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">145</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/145/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib424-3">
                   <title>AGI Lima 464</title>
                </bibl>

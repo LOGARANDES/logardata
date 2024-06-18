@@ -43,14 +43,13 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: Add information on modern town</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-184" source="bib184-1" type="reduccion">
+            <place xml:id="place-184" source="bib184-1">
                <placeName xml:id="name184-1" full="yes" type="standardized">San Trinidad de [Conayca?]</placeName>
                <placeName xml:id="name184-2" type="standardized-Spanish">San Trinidad de</placeName>
                <placeName xml:id="name184-3" type="standardized-Andean">[Conayca?</placeName>
@@ -65,9 +64,6 @@
                   </region>
                   <settlement type="pueblo">San Trinidad de [Conayca?]</settlement>
                </location>
-               <location type="modern">
-                  <settlement type="pueblo">Conayca</settlement>
-               </location>
                <location type="gps">
                   <geo>-12.51987715 -75.00696527</geo>
                </location>
@@ -75,11 +71,14 @@
                   <geo>-12 31 11.55720 -075 00 25.07400</geo>
                </location>
                <note>Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=-520287&amp;fid=4529&amp;c=peru</note>
-               
+               <bibl xml:id="bib184-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">179</citedRange>
+               </bibl>
                <bibl xml:id="bib184-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">179</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/179/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib184-3">
                   <title>AGI Lima 464</title>
                </bibl>

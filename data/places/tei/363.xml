@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-363" source="bib363-1" type="reduccion">
+            <place xml:id="place-363" source="bib363-1">
                <placeName xml:id="name363-1" full="yes" type="standardized">Utrera de Ciba [Utrera de Sibayo]</placeName>
                <placeName xml:id="name363-2" type="standardized-Spanish">Utrera de</placeName>
                <placeName xml:id="name363-3" type="standardized-Andean">Ciba [Sibayo]</placeName>
@@ -77,11 +77,14 @@
                   <geo>-15 29 11.34240 -071 27 25.02360</geo>
                </location>
                <note>http://en.wikipedia.org/wiki/Sibayo_District. "The town was founded as a reducción with the name Utrera de Sibayo ": http://www.colcalife.com/en/index.php?option=com_content&amp;view=article&amp;id=48&amp;Itemid=56</note>
-               
+               <bibl xml:id="bib363-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">174</citedRange>
+               </bibl>
                <bibl xml:id="bib363-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">174</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/174/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib363-3">
                   <title>AGI Lima 464</title>
                </bibl>

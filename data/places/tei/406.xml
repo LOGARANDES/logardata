@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-406" source="bib406-1" type="reduccion">
+            <place xml:id="place-406" source="bib406-1">
                <placeName xml:id="name406-1" full="yes" type="standardized">Espiritu Santo De Chiguata</placeName>
                <placeName xml:id="name406-2" type="standardized-Spanish">Espiritu Santo de</placeName>
                <placeName xml:id="name406-3" type="standardized-Andean">Chiguata</placeName>
@@ -85,11 +85,14 @@
                   <geo>-16 24 08.89200 -071 23 31.18920</geo>
                </location>
                <note>Pop numbers for indiv rpts are from Cook. Levillier gives total number at 1262/5564, which is much higher.</note>
-               
+               <bibl xml:id="bib406-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">176</citedRange>
+               </bibl>
                <bibl xml:id="bib406-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">176</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/176/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib406-3">
                   <title>AGI Lima 464</title>
                </bibl>

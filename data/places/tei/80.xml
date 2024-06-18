@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-80" source="bib80-1" type="reduccion">
+            <place xml:id="place-80" source="bib80-1">
                <placeName xml:id="name80-1" full="yes" type="standardized">San Pedro y San Pablo de Xinga</placeName>
                <placeName xml:id="name80-2" type="standardized-Spanish">San Pedro y San Pablo de</placeName>
                <placeName xml:id="name80-3" type="standardized-Andean">Xinga</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-09 23 18.90960 -076 48 45.64080</geo>
                </location>
-               
+               <bibl xml:id="bib80-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">201</citedRange>
+               </bibl>
                <bibl xml:id="bib80-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">201</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/201/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib80-3">
                   <title>AGI Lima 464</title>
                </bibl>

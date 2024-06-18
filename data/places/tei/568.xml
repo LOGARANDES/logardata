@@ -38,32 +38,14 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 568 with administrative information from 7</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1" type="reduccion">
-                    <placeName xml:id="name568-1" full="yes" type="standardized">Unnamed reduccion next to Piura</placeName>
-                    <placeName xml:id="name568-4" type="verbatim">Junto a la dicha ciudad [Piura] estan poblados…</placeName>
-                    <location type="ancient">
-                        <region type="audiencia">Lima</region>
-                        <region type="ciudad">Piura</region>
-                        <region type="corregimiento">Piura</region>
-                        <region type="repartimiento">
-                            <placeName type="standardized" full="yes">encomienda de gonzalo farfan y gaspar troche de buytrago</placeName>
-                            <placeName type="verbatim">encomienda de gonzalo farfan y gaspar troche de buytrago</placeName>
-                        </region>
-                        <settlement type="pueblo">Unnamed reduccion next to Piura</settlement>
-                    </location>
-                    <location type="modern">
-                        <country>Peru</country>
-                        <region type="province">Piura</region>
-                        <region type="department">Piura</region>
-                        <settlement type="pueblo">Piura</settlement>
-                    </location>
+                <place xml:id="place-1" source="bib1-1">
+                    <placeName xml:id="name568-1" full="yes" type="standardized" source="#bib1-1">sd</placeName>
                     <location type="gps">
                         <geo>-5.08514 -81.11372</geo>
                     </location>
@@ -71,21 +53,6 @@
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">45v</citedRange>
                     </bibl>
-                    
-                    <bibl xml:id="bib7-2">
-                        <title>Levillier 1921-26 v9</title>
-                        <citedRange unit="pp">211</citedRange>
-                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/211/mode/2up"/></bibl>
-                    <bibl xml:id="bib7-3">
-                        <title>AGI Lima 464</title>
-                    </bibl>
-                    <note type="administrative" subtype="Moved">1</note>
-                    <note type="administrative" subtype="Move_ref">Google sat</note>
-                    <note type="administrative" subtype="MR_other_notes">Placed in plaza for Piura</note>
-                    <note type="administrative" subtype="Moved_by">Kohut</note>
-                    <note type="administrative" subtype="Move_date">3/3/2016</note>
-                    <note type="administrative" subtype="Delete_2">0</note>
-                    
                     <idno type="URI">http://logarandes.org/place/568</idno>
                 </place>
             </listPlace>

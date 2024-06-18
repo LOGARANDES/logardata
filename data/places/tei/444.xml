@@ -43,14 +43,13 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-444" source="bib444-1" type="reduccion">
+            <place xml:id="place-444" source="bib444-1">
                <placeName xml:id="name444-1" full="yes" type="standardized">Santiago de Mohosa [Hurmire? Caracollo?]</placeName>
                <placeName xml:id="name444-2" type="standardized-Spanish">Santiago de</placeName>
                <placeName xml:id="name444-3" type="standardized-Andean">Mohosa  [Hurmire? Caracollo?]</placeName>
@@ -78,17 +77,20 @@
                   <desc>853</desc>
                </population>
                <location type="gps">
-                  <geo>-17.36109671 -66.94576128</geo>
+                  <geo>-17.63647563 -67.21663977</geo>
                </location>
                <location>
                   <geo>-17 38 11.31360 -067 12 59.90400</geo>
                </location>
                <note>2015: Rio 2005:126: This reduccion was called Santiago de Hurmire. Mohosa, meanwhile, was name of a reduccion in Paria repartimiento, not named in G - but this may be a misprint]</note>
-               
+               <bibl xml:id="bib444-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">143</citedRange>
+               </bibl>
                <bibl xml:id="bib444-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">143</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/143/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib444-3">
                   <title>AGI Lima 464</title>
                </bibl>

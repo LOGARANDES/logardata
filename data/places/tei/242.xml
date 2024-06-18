@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-242" source="bib242-1" type="reduccion">
+            <place xml:id="place-242" source="bib242-1">
                <placeName xml:id="name242-1" full="yes" type="standardized">La Magdalena [de Pisco?]</placeName>
                <placeName xml:id="name242-2" type="standardized-Spanish">La Magdalena</placeName>
                <placeName xml:id="name242-3" type="standardized-Andean">[Pisco?]</placeName>
@@ -77,11 +77,14 @@
                   <geo>-13 42 35.96040 -076 12 11.20680</geo>
                </location>
                <note>couldn't find a location for La Magdalena</note>
-               
+               <bibl xml:id="bib242-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">194</citedRange>
+               </bibl>
                <bibl xml:id="bib242-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">194</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/194/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib242-3">
                   <title>AGI Lima 464</title>
                </bibl>

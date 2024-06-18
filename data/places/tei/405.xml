@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-405" source="bib405-1" type="reduccion">
+            <place xml:id="place-405" source="bib405-1">
                <placeName xml:id="name405-1" full="yes" type="standardized">San Felipe [de Ubinas]</placeName>
                <placeName xml:id="name405-2" type="standardized-Spanish">San Felipe</placeName>
                <placeName xml:id="name405-3" type="standardized-Andean">[Ubinas]</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-16 23 12.19920 -070 51 21.22560</geo>
                </location>
-               
+               <bibl xml:id="bib405-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">175</citedRange>
+               </bibl>
                <bibl xml:id="bib405-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">175</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/175/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib405-3">
                   <title>AGI Lima 464</title>
                </bibl>

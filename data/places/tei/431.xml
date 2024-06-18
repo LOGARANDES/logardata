@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-431" source="bib431-1" type="reduccion">
+            <place xml:id="place-431" source="bib431-1">
                <placeName xml:id="name431-1" full="yes" type="standardized">San Salvador [de Ayoayo]</placeName>
                <placeName xml:id="name431-2" type="standardized-Spanish">San Salvador</placeName>
                <placeName xml:id="name431-3" type="standardized-Andean">[de Ayoayo]</placeName>
@@ -82,11 +82,14 @@
                <location>
                   <geo>-17 05 28.34520 -068 00 08.72280</geo>
                </location>
-               
+               <bibl xml:id="bib431-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">143</citedRange>
+               </bibl>
                <bibl xml:id="bib431-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">143</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/143/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib431-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -43,14 +43,13 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: Update to coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-463" source="bib463-1" type="reduccion">
+            <place xml:id="place-463" source="bib463-1">
                <placeName xml:id="name463-1" full="yes" type="standardized">Santa Fe de Chayrapata</placeName>
                <placeName xml:id="name463-2" type="standardized-Spanish">Santa Fe de</placeName>
                <placeName xml:id="name463-3" type="standardized-Andean">Chayrapata</placeName>
@@ -72,7 +71,7 @@
                   <settlement type="pueblo">Chairapata</settlement>
                </location>
                <location type="gps">
-                  <geo>-18.76316265 -65.90207721</geo>
+                  <geo>-18.81758357 -66.03719264</geo>
                </location>
                <location>
                   <geo>-18 49 03.30240 -066 02 13.89480</geo>
@@ -81,7 +80,7 @@
                <bibl xml:id="bib463-1">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">138</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/138/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib463-2">
                   <title>Levillier 1921-26 v38</title>
                   <citedRange unit="pp">138</citedRange>

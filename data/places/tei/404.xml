@@ -48,15 +48,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: The modern province and department name "Arequipa" is incorrect and it should be "Apurímac"</change>
          <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2016-05-09-04:00">Location corrections provided by Akira Saito of the National Museum of Ethnology, Japan and his team. </change>
             <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-404" source="bib404-1" type="reduccion">
+            <place xml:id="place-404" source="bib404-1">
                <placeName xml:id="name404-1" full="yes" type="standardized">Chaquira Yanaguaras</placeName>
                <placeName xml:id="name404-3" type="standardized-Andean">Chaquira Yanaguaras</placeName>
                <placeName xml:id="name404-4" type="verbatim">vn pueblo del mesmo nombre</placeName>
@@ -72,8 +71,8 @@
                </location>
                <location type="modern">
                   <country>Peru</country>
-                  <region type="province">Apurímac</region>
-                  <region type="department">Apurímac</region>
+                  <region type="province">Arequipa</region>
+                  <region type="department">Arequipa</region>
                   <settlement type="pueblo">Yanahuara</settlement>
                </location>
                <location type="gps" source="#bib404-3">
@@ -83,11 +82,14 @@
                   <geo>-16 23 14.68680 -071 32 31.66080</geo>
                </location>
                <note>Maybe - Found and pinned a "Yanahuara, Peru" in Arequipa region; only "Chaquira" found in Peru is in Piura region</note>
-               
+               <bibl xml:id="bib404-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">164</citedRange>
+               </bibl>
                <bibl xml:id="bib404-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">164</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/164/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib404-3">
                   <title>AGI Lima 464</title>
                <citedRange unit="part">22r</citedRange>

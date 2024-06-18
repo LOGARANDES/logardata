@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-286" source="bib286-1" type="reduccion">
+            <place xml:id="place-286" source="bib286-1">
                <placeName xml:id="name286-1" full="yes" type="standardized">San Juan de Para</placeName>
                <placeName xml:id="name286-2" type="standardized-Spanish">San Juan de</placeName>
                <placeName xml:id="name286-3" type="standardized-Andean">Para</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-14 09 08.04600 -069 39 54.71280</geo>
                </location>
-               
+               <bibl xml:id="bib286-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">155</citedRange>
+               </bibl>
                <bibl xml:id="bib286-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">155</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/155/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib286-3">
                   <title>AGI Lima 464</title>
                </bibl>

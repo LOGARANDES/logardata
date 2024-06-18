@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-274" source="bib274-1" type="reduccion">
+            <place xml:id="place-274" source="bib274-1">
                <placeName xml:id="name274-1" full="yes" type="standardized">San Juan de Payco</placeName>
                <placeName xml:id="name274-2" type="standardized-Spanish">San Juan de</placeName>
                <placeName xml:id="name274-3" type="standardized-Andean">Payco</placeName>
@@ -77,11 +77,14 @@
                   <geo>-14 02 18.34080 -073 38 31.73280</geo>
                </location>
                <note>Same location as?: http://es.wikipedia.org/wiki/Distrito_de_Paico - Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=-537566&amp;fid=4509&amp;c=peru - not the same location according to the Coordinates given on the Wikipedia page in you</note>
-               
+               <bibl xml:id="bib274-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">179</citedRange>
+               </bibl>
                <bibl xml:id="bib274-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">179</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/179/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib274-3">
                   <title>AGI Lima 464</title>
                </bibl>

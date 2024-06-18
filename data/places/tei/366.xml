@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-366" source="bib366-1" type="reduccion">
+            <place xml:id="place-366" source="bib366-1">
                <placeName xml:id="name366-1" full="yes" type="standardized">Escalona de Veuchachas [Uchuchachas]</placeName>
                <placeName xml:id="name366-2" type="standardized-Spanish">Escalona de</placeName>
                <placeName xml:id="name366-3" type="standardized-Andean">Veuchachas [Uchuchachas]</placeName>
@@ -71,11 +71,14 @@
                   <geo>-15 32 17.44440 -072 05 16.59120</geo>
                </location>
                <note>Uchuchachas appears as a zona near Yanque and Tuti: http://www.seal.com.pe/clientes/Lists/Cortes%20Programados/DispForm.aspx?ID=450 - but can't find any information about where the zona from the link actually is... There are zero search results for "Uch</note>
-               
+               <bibl xml:id="bib366-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">174</citedRange>
+               </bibl>
                <bibl xml:id="bib366-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">174</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/174/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib366-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -38,46 +38,17 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 506 with administrative information from 425</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1" type="reduccion">
+                <place xml:id="place-1" source="bib1-1">
                     <placeName xml:id="name506-1" full="yes" type="standardized" source="#bib1-1">San Joan de Suri</placeName>
-                    <placeName xml:id="name506-2" type="standardized-Spanish">San Juan de</placeName>
-                    <placeName xml:id="name506-3" type="standardized-Andean">Suri</placeName>
-                    <placeName xml:id="name506-4" type="verbatim">san joan de suri</placeName>
-                    <location type="ancient">
-                        <region type="audiencia">La Plata</region>
-                        <region type="ciudad">La Paz</region>
-                        <region type="corregimiento">Sicasica / Caracollo</region>
-                        <region type="repartimiento">
-                            <placeName type="standardized" full="yes">Yngas de Suri</placeName>
-                            <placeName type="verbatim">yngas de suri</placeName>
-                        </region>
-                        <settlement type="pueblo">San Juan de Suri</settlement>
-                    </location>
-                    <location type="modern">
-                        <country>Bolivia</country>
-                        <region type="province">Inquisivi</region>
-                        <region type="department">La Paz</region>
-                        <settlement type="pueblo">Suri</settlement>
-                    </location>
                     <location type="gps">
                         <geo>-16.74789 -67.19024</geo>
                     </location>
-                    
-                    <bibl xml:id="bib425-2">
-                        <title>Levillier 1921-26 v9</title>
-                        <citedRange unit="pp">143</citedRange>
-                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/143/mode/2up"/></bibl>
-                    <bibl xml:id="bib425-3">
-                        <title>AGI Lima 464</title>
-                    </bibl>
-
                     <bibl xml:id="bib1-1">
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">12r</citedRange>

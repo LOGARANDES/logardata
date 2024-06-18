@@ -43,14 +43,13 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-282" source="bib282-1" type="reduccion">
+            <place xml:id="place-282" source="bib282-1">
                <placeName xml:id="name282-1" full="yes" type="standardized">Saysa</placeName>
                <placeName xml:id="name282-3" type="standardized-Andean">Saysa</placeName>
                <placeName xml:id="name282-4" type="verbatim">saysa</placeName>
@@ -71,19 +70,20 @@
                   <settlement type="pueblo">Saisa District</settlement>
                </location>
                <location type="gps">
-                  <geo>-14.94024721 -74.41677113</geo>
+                  <geo>-13.94282516 -74.31256794</geo>
                </location>
-               <!--
                <location>
                   <geo>-13 56 34.17000 -074 18 45.24480</geo>
                </location>
-               -->
                <note>Coordinates from: http://en.wikipedia.org/wiki/Saisa_District - can't find any other source for Coordinates</note>
-               
+               <bibl xml:id="bib282-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">178</citedRange>
+               </bibl>
                <bibl xml:id="bib282-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">178</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/178/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib282-3">
                   <title>AGI Lima 464</title>
                </bibl>

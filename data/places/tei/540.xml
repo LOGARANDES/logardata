@@ -38,49 +38,23 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-09-04:00">Update: Update 540 with information from 213</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-213" source="bib213-1" type="reduccion">
-                    <placeName xml:id="name213-1" full="yes" type="standardized">San Marcos</placeName>
-                    <placeName xml:id="name213-2" type="standardized-Spanish">San Marcos</placeName>
-               <placeName xml:id="name213-4" type="verbatim">san marcos</placeName>
-               <location type="ancient">
-                  <region type="audiencia">Lima</region>
-                  <region type="ciudad">Cuzco</region>
-                  <region type="corregimiento">Chilques</region>
-                  <region type="repartimiento">
-                     <placeName type="standardized" full="yes">Collanatambo,Coyango</placeName>
-                     <placeName type="verbatim">collanatambo y coyango</placeName>
-                  </region>
-                  <settlement type="pueblo">San Marcos</settlement>
-               </location>
-               <location type="gps">
-                        <geo>-13.2586597 -72.26362014</geo>
+                <place xml:id="place-1" source="bib1-1">
+                    <placeName xml:id="name540-1" full="yes" type="standardized" source="#bib1-1">San Marcos</placeName>
+                    <location type="gps">
+                        <geo>-13.87320 -71.95050</geo>
                     </location>
-                    <location>
-                  <geo>-13 15 31.17600 -072 15 49.03200</geo>
-               </location>
-               
-                    <bibl xml:id="bib213-2">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">161</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/161/mode/2up"/></bibl>
-               <bibl xml:id="bib213-3">
-                  <title>AGI Lima 464</title>
-               </bibl>
-               <idno type="URI">http://logarandes.org/place/540</idno>
-                <note type="administrative" subtype="Moved">1</note>
-               <note type="administrative" subtype="Move_ref">Google sat</note>
-               <note type="administrative" subtype="MR_other_notes">Check if San Marcos corresponds to Ollantaytambo.</note>
-               <note type="administrative" subtype="Moved_by">Wernke</note>
-               <note type="administrative" subtype="Move_date">1/23/2016</note>
-               <note type="administrative" subtype="Delete_2">0</note>
-            </place>
+                    <bibl xml:id="bib1-1">
+                        <title>AGI Lima 464</title>
+                        <citedRange unit="part">21r</citedRange>
+                    </bibl>
+                    <idno type="URI">http://logarandes.org/place/540</idno>
+                </place>
             </listPlace>
         </body>
     </text>

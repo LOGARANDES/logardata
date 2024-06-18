@@ -43,14 +43,13 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-83" source="bib83-1" type="reduccion">
+            <place xml:id="place-83" source="bib83-1">
                <placeName xml:id="name83-1" full="yes" type="standardized">San Luis de Chuquibamba</placeName>
                <placeName xml:id="name83-2" type="standardized-Spanish">San Luis de</placeName>
                <placeName xml:id="name83-3" type="standardized-Andean">Chuquibamba</placeName>
@@ -73,19 +72,20 @@
                   <note type="modern-location">Not capital of a district</note>
                </location>
                <location type="gps">
-                  <geo>-9.094425921 -77.32915886</geo>
+                  <geo>-9.459054176 -76.78867182</geo>
                </location>
-               <!--
                <location>
                   <geo>-09 27 32.59440 -076 47 19.21920</geo>
                </location>
-               -->
                <note>MAYBE - BUT FAR FROM OTHER CONCHUCOS</note>
-               
+               <bibl xml:id="bib83-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">200</citedRange>
+               </bibl>
                <bibl xml:id="bib83-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">200</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/200/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib83-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-215" source="bib215-1" type="reduccion">
+            <place xml:id="place-215" source="bib215-1">
                <placeName xml:id="name215-1" full="yes" type="standardized">San Francisco de Vinchos</placeName>
                <placeName xml:id="name215-2" type="standardized-Spanish">San Francisco de</placeName>
                <placeName xml:id="name215-3" type="standardized-Andean">Vinchos</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-13 14 31.11360 -074 21 15.44400</geo>
                </location>
-               
+               <bibl xml:id="bib215-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">181</citedRange>
+               </bibl>
                <bibl xml:id="bib215-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">181</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/181/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib215-3">
                   <title>AGI Lima 464</title>
                </bibl>

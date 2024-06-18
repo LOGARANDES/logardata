@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-49" source="bib49-1" type="reduccion">
+            <place xml:id="place-49" source="bib49-1">
                <placeName xml:id="name49-1" full="yes" type="standardized">El Nombre de Jesus</placeName>
                <placeName xml:id="name49-2" type="standardized-Spanish">El Nombre de</placeName>
                <placeName xml:id="name49-4" type="verbatim">el nombre de Jesus</placeName>
@@ -75,11 +75,14 @@
                <location>
                   <geo>-07 14 56.37840 -078 22 46.21080</geo>
                </location>
-               
+               <bibl xml:id="bib49-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">210</citedRange>
+               </bibl>
                <bibl xml:id="bib49-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">210</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/210/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib49-3">
                   <title>AGI Lima 464</title>
                </bibl>

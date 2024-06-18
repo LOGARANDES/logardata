@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-154" source="bib154-1" type="reduccion">
+            <place xml:id="place-154" source="bib154-1">
                <placeName xml:id="name154-1" full="yes" type="standardized">Santa Olalla [Eulalia] de Acopalla</placeName>
                <placeName xml:id="name154-2" type="standardized-Spanish">Santa Olalla [Eulalia] de</placeName>
                <placeName xml:id="name154-3" type="standardized-Andean">Acopalla</placeName>
@@ -76,11 +76,14 @@
                <location>
                   <geo>-11 54 04.69440 -076 39 50.90400</geo>
                </location>
-               
+               <bibl xml:id="bib154-1">
+                  <title>Levillier 1921-26 v9</title>
+                  <citedRange unit="pp">191</citedRange>
+               </bibl>
                <bibl xml:id="bib154-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">191</citedRange>
-               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/191/mode/2up"/></bibl>
+               </bibl>
                <bibl xml:id="bib154-3">
                   <title>AGI Lima 464</title>
                </bibl>
