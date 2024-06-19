@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-432" source="bib432-1">
+            <place xml:id="place-432" source="bib432-1" type="reduccion">
                <placeName xml:id="name432-1" full="yes" type="standardized">[San Andrés de] Machaca la Grande</placeName>
                <placeName xml:id="name432-2" type="standardized-Spanish">[San Andrés de]</placeName>
                <placeName xml:id="name432-3" type="standardized-Andean">Machaca la Grande</placeName>
@@ -77,14 +77,11 @@
                   <geo>-16 57 21.67200 -068 58 07.72680</geo>
                </location>
                <note>Initially pinned "Machaca, Bolivia" in Cochabamba dept. - "San Andres de Machaca" is pinned as well, but it's even farther away from La Paz...</note>
-               <bibl xml:id="bib432-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">145</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib432-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">145</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/145/mode/2up"/></bibl>
                <bibl xml:id="bib432-3">
                   <title>AGI Lima 464</title>
                </bibl>

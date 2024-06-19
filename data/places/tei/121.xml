@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-121" source="bib121-1">
+            <place xml:id="place-121" source="bib121-1" type="reduccion">
                <placeName xml:id="name121-1" full="yes" type="standardized">Paccho</placeName>
                <placeName xml:id="name121-3" type="standardized-Andean">Paccho</placeName>
                <placeName xml:id="name121-4" type="verbatim">paccho</placeName>
@@ -76,14 +76,11 @@
                   <geo>-10 57 26.89920 -076 55 59.30400</geo>
                </location>
                <note>found Auquimarca in Prov. Cajatambo, not sure which is supposed to be this location</note>
-               <bibl xml:id="bib121-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">197</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib121-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">197</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/197/mode/2up"/></bibl>
                <bibl xml:id="bib121-3">
                   <title>AGI Lima 464</title>
                </bibl>

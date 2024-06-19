@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-220" source="bib220-1">
+            <place xml:id="place-220" source="bib220-1" type="reduccion">
                <placeName xml:id="name220-1" full="yes" type="standardized">Nuestra Señora de Ongoy</placeName>
                <placeName xml:id="name220-2" type="standardized-Spanish">Nuestra Señora de</placeName>
                <placeName xml:id="name220-3" type="standardized-Andean">Ongoy</placeName>
@@ -71,14 +71,11 @@
                   <geo>-13 24 11.26800 -073 40 06.19320</geo>
                </location>
                <note>Coordinates from: http://en.wikipedia.org/wiki/Ongoy_District</note>
-               <bibl xml:id="bib220-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">169</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib220-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">169</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/169/mode/2up"/></bibl>
                <bibl xml:id="bib220-3">
                   <title>AGI Lima 464</title>
                </bibl>

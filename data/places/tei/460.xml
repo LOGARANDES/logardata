@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-460" source="bib460-1">
+            <place xml:id="place-460" source="bib460-1" type="reduccion">
                <placeName xml:id="name460-1" full="yes" type="standardized">Villaverde de la Fuente</placeName>
                <placeName xml:id="name460-2" type="standardized-Spanish">Villaverde</placeName>
                <placeName xml:id="name460-4" type="verbatim">Villaverde de la Fuente</placeName>
@@ -69,6 +70,9 @@
                   <region type="department">Chuquisaca</region>
                   <settlement type="pueblo">Copavilque</settlement>
                </location>
+               <location type="gps">
+                  <geo>-18.62403241 -65.28609733</geo>
+               </location>
                <population>
                   <desc>1754</desc>
                </population>
@@ -79,7 +83,7 @@
                <bibl xml:id="bib460-1">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">138</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/138/mode/2up"/></bibl>
                <bibl xml:id="bib460-2">
                   <title>Levillier 1921-26 v32</title>
                   <citedRange unit="pp">138</citedRange>

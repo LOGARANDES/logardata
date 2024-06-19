@@ -38,14 +38,34 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 562 with administrative information from 171</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name562-1" full="yes" type="standardized" source="#bib1-1">Sant Josephe de Siquipa</placeName>
+                    <placeName xml:id="name171-2" type="standardized-Spanish">San Josephe de</placeName>
+                    <placeName xml:id="name171-3" type="standardized-Andean">Siquipa</placeName>
+                    <placeName xml:id="name171-4" type="verbatim">san Josephe de siquipa</placeName>
+                    <location type="ancient">
+                        <region type="audiencia">Lima</region>
+                        <region type="ciudad">Lima</region>
+                        <region type="corregimiento">Huarochirí</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Huarochirí</placeName>
+                            <placeName type="verbatim">Guarochiri</placeName>
+                        </region>
+                        <settlement type="pueblo">San Josephe de Siquipa</settlement>
+                    </location>
+                    <location type="modern">
+                        <country>Peru</country>
+                        <region type="province">Huarochirí</region>
+                        <region type="department">Lima</region>
+                        <settlement type="pueblo">San José de los Chorrillos</settlement>
+                    </location>
                     <location type="gps">
                         <geo>-12.13223 -76.43532</geo>
                     </location>
@@ -53,6 +73,20 @@
                         <title>AGI Lima 464</title>
                         <citedRange unit="part">35v</citedRange>
                     </bibl>
+                    <note>MAYBE. http://huarochiri.info/document/HistoriayArqueologia.pdf refers to a reduccion called San José de Chorrillos. It's the only San Jose in the region: http://historiadeyauyos.blogspot.com/ - Coordinates from: http://www.maplandia.com/peru/lima/huaro</note>
+                    
+                    <bibl xml:id="bib171-2">
+                        <title>Levillier 1921-26 v9</title>
+                        <citedRange unit="pp">191</citedRange>
+                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/191/mode/2up"/></bibl>
+                    <bibl xml:id="bib171-3">
+                        <title>AGI Lima 464</title>
+                    </bibl>
+                    <note type="administrative" subtype="Moved">0</note>
+                    <note type="administrative" subtype="MR_other_notes">Documents place this in Huarochiri, but I can't find anything more specific than that.</note>
+                    <note type="administrative" subtype="Moved_by">Kohut</note>
+                    <note type="administrative" subtype="Move_date">3/28/2016</note>
+                    <note type="administrative" subtype="Delete_2">0</note>
                     <idno type="URI">http://logarandes.org/place/562</idno>
                 </place>
             </listPlace>

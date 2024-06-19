@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-268" source="bib268-1">
+            <place xml:id="place-268" source="bib268-1" type="reduccion">
                <placeName xml:id="name268-1" full="yes" type="standardized">San Salvador de Quixi</placeName>
                <placeName xml:id="name268-2" type="standardized-Spanish">San Salvador de</placeName>
                <placeName xml:id="name268-3" type="standardized-Andean">Quixi</placeName>
@@ -77,14 +77,11 @@
                   <geo>-13 58 06.26160 -073 44 05.65440</geo>
                </location>
                <note>Coordinates from: http://www.postalcodedb.com/05360_San%20Salvador%20de%20Quije_Peru.html</note>
-               <bibl xml:id="bib268-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">179</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib268-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">179</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/179/mode/2up"/></bibl>
                <bibl xml:id="bib268-3">
                   <title>AGI Lima 464</title>
                </bibl>

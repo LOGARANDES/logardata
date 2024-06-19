@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-108" source="bib108-1">
+            <place xml:id="place-108" source="bib108-1" type="reduccion">
                <placeName xml:id="name108-1" full="yes" type="standardized">San Pedro de Pillao de Querca</placeName>
                <placeName xml:id="name108-2" type="standardized-Spanish">San Pedro de</placeName>
                <placeName xml:id="name108-3" type="standardized-Andean">Querca</placeName>
@@ -77,14 +77,11 @@
                   <geo>-10 26 20.24880 -076 29 41.76240</geo>
                </location>
                <note>This reducción also has some families from repartimiento Tambo (below). G 203: "El rrepart. de tambo... tiene 512 indios y 2508 personas rreduzidos en dos pueblos llamados san pedro de pellao y san bartolome."</note>
-               <bibl xml:id="bib108-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">203</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib108-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">203</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/203/mode/2up"/></bibl>
                <bibl xml:id="bib108-3">
                   <title>AGI Lima 464</title>
                </bibl>

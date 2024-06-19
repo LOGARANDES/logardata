@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-414" source="bib414-1">
+            <place xml:id="place-414" source="bib414-1" type="reduccion">
                <placeName xml:id="name414-1" full="yes" type="standardized">Guaycho</placeName>
                <placeName xml:id="name414-3" type="standardized-Andean">Guaycho</placeName>
                <placeName xml:id="name414-4" type="verbatim">vn pueblo del mesmo nombre</placeName>
@@ -70,20 +71,20 @@
                   <settlement type="pueblo">Huaycho</settlement>
                   <note type="modern-location">Province designation tentative</note>
                </location>
+               <location type="gps">
+                  <geo>-15.53307854 -69.25238622</geo>
+               </location>
                <population>
                   <desc>2510</desc>
                </population>
                <population source="bib414-1" type="tributaries">
                   <desc>575</desc>
                </population>
-               <bibl xml:id="bib414-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">147</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib414-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">147</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/147/mode/2up"/></bibl>
                <bibl xml:id="bib414-3">
                   <title>AGI Lima 464</title>
                </bibl>

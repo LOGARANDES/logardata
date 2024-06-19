@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-258" source="bib258-1">
+            <place xml:id="place-258" source="bib258-1" type="reduccion">
                <placeName xml:id="name258-1" full="yes" type="standardized">Nuestra Señora de la Asuncion de Araypalpa</placeName>
                <placeName xml:id="name258-2" type="standardized-Spanish">Nuestra Señora de</placeName>
                <placeName xml:id="name258-3" type="standardized-Andean">Araypalpa</placeName>
@@ -80,14 +80,11 @@
                <location>
                   <geo>-13 50 01.34880 -071 50 11.99760</geo>
                </location>
-               <bibl xml:id="bib258-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">161</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib258-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">161</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/161/mode/2up"/></bibl>
                <bibl xml:id="bib258-3">
                   <title>AGI Lima 464</title>
                </bibl>

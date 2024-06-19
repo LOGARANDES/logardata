@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-260" source="bib260-1">
+            <place xml:id="place-260" source="bib260-1" type="reduccion">
                <placeName xml:id="name260-1" full="yes" type="standardized">Chacaro</placeName>
                <placeName xml:id="name260-3" type="standardized-Andean">Chacaro</placeName>
                <placeName xml:id="name260-4" type="verbatim">chacaro</placeName>
@@ -76,14 +76,11 @@
                   <geo>-13 50 55.05360 -072 08 09.04560</geo>
                </location>
                <note>Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=-516910&amp;fid=4555&amp;c=peru</note>
-               <bibl xml:id="bib260-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">165</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib260-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">165</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/165/mode/2up"/></bibl>
                <bibl xml:id="bib260-3">
                   <title>AGI Lima 464</title>
                </bibl>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-34" source="bib34-1">
+            <place xml:id="place-34" source="bib34-1" type="reduccion">
                <placeName xml:id="name34-1" full="yes" type="standardized">Pacora</placeName>
                <placeName xml:id="name34-3" type="standardized-Andean">Pacora</placeName>
                <placeName xml:id="name34-4" type="verbatim">vn pueblo del mesmo nombre</placeName>
@@ -76,14 +76,11 @@
                   <geo>-06 25 41.62440 -079 50 20.46120</geo>
                </location>
                <note>plus 300 tribs / 600 pop from Jayanca</note>
-               <bibl xml:id="bib34-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">209</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib34-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">209</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/209/mode/2up"/></bibl>
                <bibl xml:id="bib34-3">
                   <title>AGI Lima 464</title>
                </bibl>

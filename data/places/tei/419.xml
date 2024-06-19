@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="es">San Bernardo</title>
+            <title level="a" xml:lang="es">Sant Bernardo de Omate</title>
             <title level="m">LOGAR Linked Open Gazetteer of the Andean Region</title>
             <sponsor>LOGAR Linked Open Gazetteer of the Andean Region</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -48,16 +48,17 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: The name "San Bernardo" is incorrect and the correct name is "Sant Bernardo de Omate"</change>
          <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2016-05-09-04:00">Location corrections provided by Akira Saito of the National Museum of Ethnology, Japan and his team. </change>
             <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-419" source="bib419-1">
-               <placeName xml:id="name419-1" full="yes" type="standardized">San Bernardo</placeName>
-               <placeName xml:id="name419-2" type="standardized-Spanish">San Bernardo</placeName>
+            <place xml:id="place-419" source="bib419-1" type="reduccion">
+               <placeName xml:id="name419-1" full="yes" type="standardized">Sant Bernardo de Omate</placeName>
+               <placeName xml:id="name419-2" type="standardized-Spanish">Sant Bernardo de Omate</placeName>
                <placeName xml:id="name419-4" type="verbatim">san bernardo</placeName>
                <location type="ancient">
                   <region type="audiencia">Lima</region>
@@ -67,7 +68,7 @@
                      <placeName type="standardized" full="yes">Puquina</placeName>
                      <placeName type="verbatim">Puquina</placeName>
                   </region>
-                  <settlement type="pueblo">San Bernardo</settlement>
+                  <settlement type="pueblo">Sant Bernardo de Omate</settlement>
                </location>
                <location type="gps" source="#bib419-3">
                         <geo>-16.67399 -70.97010</geo>
@@ -75,14 +76,11 @@
                <location>
                   <geo>-16 36 33.10560 -071 12 54.52560</geo>
                </location>
-               <bibl xml:id="bib419-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">175</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib419-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">175</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/175/mode/2up"/></bibl>
                <bibl xml:id="bib419-3">
                   <title>AGI Lima 464</title>
                <citedRange unit="part">28r</citedRange>

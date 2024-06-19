@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-87" source="bib87-1">
+            <place xml:id="place-87" source="bib87-1" type="reduccion">
                <placeName xml:id="name87-1" full="yes" type="standardized">El Asiento de Chuqui</placeName>
                <placeName xml:id="name87-2" type="standardized-Spanish">El Asiento de</placeName>
                <placeName xml:id="name87-3" type="standardized-Andean">Chuqui</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-09 40 36.61320 -076 42 18.80640</geo>
                </location>
-               <bibl xml:id="bib87-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">202</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib87-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">202</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/202/mode/2up"/></bibl>
                <bibl xml:id="bib87-3">
                   <title>AGI Lima 464</title>
                </bibl>

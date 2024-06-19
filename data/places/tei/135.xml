@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-135" source="bib135-1">
+            <place xml:id="place-135" source="bib135-1" type="reduccion">
                <placeName xml:id="name135-1" full="yes" type="standardized">Santa Ana de Ribera</placeName>
                <placeName xml:id="name135-2" type="standardized-Spanish">Santa Ana de</placeName>
                <placeName xml:id="name135-3" type="standardized-Andean">Ribera</placeName>
@@ -77,14 +77,11 @@
                   <geo>-11 25 11.91360 -075 41 15.71640</geo>
                </location>
                <note>(according to Wikipedia, this full name is Santa Ana de Ribera de Tarma)</note>
-               <bibl xml:id="bib135-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">204</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib135-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">204</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/204/mode/2up"/></bibl>
                <bibl xml:id="bib135-3">
                   <title>AGI Lima 464</title>
                </bibl>

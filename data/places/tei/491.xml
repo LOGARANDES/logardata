@@ -38,13 +38,14 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Updated: Update 491 with administrative information from 483</change>
             <change who="http://syriaca.org/documentation/editors.xml#admin" n="1.0" when="2018-04-05-04:00">CREATED: place record</change>
-        </revisionDesc>
+        <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="place-1" source="bib1-1">
+                <place xml:id="place-1" source="bib1-1" type="reduccion">
                     <placeName xml:id="name491-1" full="yes" type="standardized" source="#bib1-1">Nuestra Señora de Beplem de Tiquipaya</placeName>
                     <location type="gps">
                         <geo>-19.22025 -65.82248</geo>
@@ -54,6 +55,42 @@
                         <citedRange unit="part">9r</citedRange>
                     </bibl>
                     <idno type="URI">http://logarandes.org/place/491</idno>
+                    <placeName xml:id="name491-2" type="standardized-Spanish">Nuestra Señora de</placeName>
+                    <placeName xml:id="name491-3" type="standardized-Andean">Tiquipaya</placeName>
+                    <placeName xml:id="name491-4" type="verbatim">nuestra señora de beplem de tuquipaya</placeName>
+                    <location type="ancient">
+                        <region type="audiencia">La Plata</region>
+                        <region type="ciudad">La Plata</region>
+                        <region type="corregimiento">Porco</region>
+                        <region type="repartimiento">
+                            <placeName type="standardized" full="yes">Colo,Caquina,Pilachuri</placeName>
+                            <placeName type="verbatim">Colo y caquina y pilachuri</placeName>
+                        </region>
+                        <settlement type="pueblo">Nuestra Señora de Belén de Tiquipaya</settlement>
+                    </location>
+                    <location type="modern">
+                        <country>Bolivia</country>
+                        <region type="province">José María Linares</region>
+                        <region type="department">Potosí</region>
+                        <settlement type="pueblo">Belén</settlement>
+                    </location>
+                    <population source="bib491-1" type="tributaries">
+                        <desc>340</desc>
+                    </population>
+                    <note>[Where did the other 108 families go?]</note>
+                    <bibl xml:id="bib491-1">
+                        <title>Levillier 1921-26 v9</title>
+                        <citedRange unit="pp">137</citedRange>
+                    <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/137/mode/2up"/></bibl>
+                    <bibl xml:id="bib491-2">
+                        <title>Levillier 1921-26 v24</title>
+                        <citedRange unit="pp">137</citedRange>
+                    </bibl>
+                    <note type="administrative" subtype="Moved">0</note>
+                    <note type="administrative" subtype="Moved_by">Mumford</note>
+                    <note type="administrative" subtype="Move_date">12/12/2015</note>
+                    <note type="administrative" subtype="Delete_2">1</note>
+                    <note type="administrative" subtype="Delete_notes">I don't know why I thought that this Belén was the one in the tasa - there doesn't seem to be any reason to think so.</note>
                 </place>
             </listPlace>
         </body>

@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-103" source="bib103-1">
+            <place xml:id="place-103" source="bib103-1" type="reduccion">
                <placeName xml:id="name103-1" full="yes" type="standardized">San Francisco de Guari</placeName>
                <placeName xml:id="name103-2" type="standardized-Spanish">San Francisco de</placeName>
                <placeName xml:id="name103-3" type="standardized-Andean">Guari</placeName>
@@ -71,14 +71,11 @@
                   <settlement type="pueblo">Huari</settlement>
                </location>
                <note>Coordinates from: http://www.indexmundi.com/zp/pe/7760.htm</note>
-               <bibl xml:id="bib103-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">201</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib103-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">201</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/201/mode/2up"/></bibl>
                <bibl xml:id="bib103-3">
                   <title>AGI Lima 464</title>
                </bibl>

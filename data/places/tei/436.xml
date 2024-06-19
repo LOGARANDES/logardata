@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-436" source="bib436-1">
+            <place xml:id="place-436" source="bib436-1" type="reduccion">
                <placeName xml:id="name436-1" full="yes" type="standardized">Santiago del Paso</placeName>
                <placeName xml:id="name436-2" type="standardized-Spanish">Santiago de</placeName>
                <placeName xml:id="name436-4" type="verbatim">santiago</placeName>
@@ -84,7 +84,7 @@
                <bibl xml:id="bib436-1">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">141</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/141/mode/2up"/></bibl>
                <bibl xml:id="bib436-2">
                   <title>Levillier 1921-26 v67</title>
                   <citedRange unit="pp">141</citedRange>

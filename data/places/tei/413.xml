@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-413" source="bib413-1">
+            <place xml:id="place-413" source="bib413-1" type="reduccion">
                <placeName xml:id="name413-1" full="yes" type="standardized">San Juan de Characato</placeName>
                <placeName xml:id="name413-2" type="standardized-Spanish">San Juan de</placeName>
                <placeName xml:id="name413-3" type="standardized-Andean">Characato</placeName>
@@ -85,14 +85,11 @@
                   <geo>-16 28 07.34160 -071 29 02.83920</geo>
                </location>
                <note>Pop numbers for indiv rpts are from Cook. Levillier gives total number at 1262/5564, which is much higher.</note>
-               <bibl xml:id="bib413-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">176</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib413-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">176</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/176/mode/2up"/></bibl>
                <bibl xml:id="bib413-3">
                   <title>AGI Lima 464</title>
                </bibl>

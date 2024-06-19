@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-316" source="bib316-1">
+            <place xml:id="place-316" source="bib316-1" type="reduccion">
                <placeName xml:id="name316-1" full="yes" type="standardized">Nuñua</placeName>
                <placeName xml:id="name316-3" type="standardized-Andean">Nuñua</placeName>
                <placeName xml:id="name316-4" type="verbatim">vn pueblo del proprio nombre</placeName>
@@ -79,14 +79,11 @@
                <location>
                   <geo>-14 28 35.22720 -070 38 10.11840</geo>
                </location>
-               <bibl xml:id="bib316-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">153</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib316-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">153</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/153/mode/2up"/></bibl>
                <bibl xml:id="bib316-3">
                   <title>AGI Lima 464</title>
                </bibl>

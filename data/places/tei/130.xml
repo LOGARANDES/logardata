@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-130" source="bib130-1">
+            <place xml:id="place-130" source="bib130-1" type="reduccion">
                <placeName xml:id="name130-1" full="yes" type="standardized">San Agustin [de Huayopampa]</placeName>
                <placeName xml:id="name130-2" type="standardized-Spanish">San Agustin</placeName>
                <placeName xml:id="name130-3" type="standardized-Andean">[Huayopampa]</placeName>
@@ -77,14 +77,11 @@
                   <geo>-11 21 12.78720 -076 49 25.62600</geo>
                </location>
                <note>?</note>
-               <bibl xml:id="bib130-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">193</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib130-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">193</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/193/mode/2up"/></bibl>
                <bibl xml:id="bib130-3">
                   <title>AGI Lima 464</title>
                </bibl>

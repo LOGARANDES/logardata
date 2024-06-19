@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-313" source="bib313-1">
+            <place xml:id="place-313" source="bib313-1" type="reduccion">
                <placeName xml:id="name313-1" full="yes" type="standardized">Santiago de Mollebamba</placeName>
                <placeName xml:id="name313-2" type="standardized-Spanish">Santiago de</placeName>
                <placeName xml:id="name313-3" type="standardized-Andean">Mollebamba</placeName>
@@ -71,20 +72,19 @@
                   <settlement type="pueblo">Mollebamba</settlement>
                </location>
                <location type="gps">
-                  <geo>-14.42861275 -72.91467765</geo>
+                  <geo>-13.67231293 -73.68806622</geo>
                </location>
+               <!--
                <location>
                   <geo>-14 25 43.00680 -072 54 52.84080</geo>
                </location>
+               -->
                <note>Coordinates from: http://www.geographic.org/geographic_names/name.php?uni=6544845&amp;fid=4569&amp;c=peru</note>
-               <bibl xml:id="bib313-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">169</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib313-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">169</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/169/mode/2up"/></bibl>
                <bibl xml:id="bib313-3">
                   <title>AGI Lima 464</title>
                </bibl>

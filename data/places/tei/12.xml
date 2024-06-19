@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-12" source="bib12-1">
+            <place xml:id="place-12" source="bib12-1" type="reduccion">
                <placeName xml:id="name12-1" full="yes" type="standardized">Techo</placeName>
                <placeName xml:id="name12-3" type="standardized-Andean">Techo</placeName>
                <placeName xml:id="name12-4" type="verbatim">techo</placeName>
@@ -69,14 +70,14 @@
                   <region type="department">Amazonas</region>
                   <settlement type="pueblo">Yambrasbamba</settlement>
                </location>
-               <bibl xml:id="bib12-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">215</citedRange>
-               </bibl>
+               <location type="gps">
+                  <geo>-5.741537334 -77.90564833</geo>
+               </location>
+               
                <bibl xml:id="bib12-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">215</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/215/mode/2up"/></bibl>
                <bibl xml:id="bib12-3">
                   <title>AGI Lima 464</title>
                </bibl>

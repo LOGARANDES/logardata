@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-248" source="bib248-1">
+            <place xml:id="place-248" source="bib248-1" type="reduccion">
                <placeName xml:id="name248-1" full="yes" type="standardized">San Agustin de Cotabamba</placeName>
                <placeName xml:id="name248-2" type="standardized-Spanish">San Agustin de</placeName>
                <placeName xml:id="name248-3" type="standardized-Andean">Cotabamba</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-13 44 49.68240 -072 21 22.69080</geo>
                </location>
-               <bibl xml:id="bib248-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">164</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib248-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">164</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/164/mode/2up"/></bibl>
                <bibl xml:id="bib248-3">
                   <title>AGI Lima 464</title>
                </bibl>

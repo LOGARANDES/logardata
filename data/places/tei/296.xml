@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-296" source="bib296-1">
+            <place xml:id="place-296" source="bib296-1" type="reduccion">
                <placeName xml:id="name296-1" full="yes" type="standardized">San Francisco de Pampamarca</placeName>
                <placeName xml:id="name296-2" type="standardized-Spanish">San Francisco de</placeName>
                <placeName xml:id="name296-3" type="standardized-Andean">Pampamarca</placeName>
@@ -77,14 +77,11 @@
                   <geo>-14 13 57.90000 -074 02 29.15160</geo>
                </location>
                <note>Index Mundi actually lists 2 locations for Pampamarca in Ayacucho, and the location I have saved came from GE, so I think it is a legitimate location, I just don't know if it's the right Pampamarca...?</note>
-               <bibl xml:id="bib296-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">179</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib296-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">179</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/179/mode/2up"/></bibl>
                <bibl xml:id="bib296-3">
                   <title>AGI Lima 464</title>
                </bibl>

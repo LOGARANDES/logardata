@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-66" source="bib66-1">
+            <place xml:id="place-66" source="bib66-1" type="reduccion">
                <placeName xml:id="name66-1" full="yes" type="standardized">San Luis de Macati</placeName>
                <placeName xml:id="name66-2" type="standardized-Spanish">San Luis de</placeName>
                <placeName xml:id="name66-3" type="standardized-Andean">Macati</placeName>
@@ -84,14 +84,11 @@
                <location>
                   <geo>-08 45 38.16360 -078 03 40.52160</geo>
                </location>
-               <bibl xml:id="bib66-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">198</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib66-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">198</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/198/mode/2up"/></bibl>
                <bibl xml:id="bib66-3">
                   <title>AGI Lima 464</title>
                </bibl>

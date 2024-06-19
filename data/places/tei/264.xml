@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-264" source="bib264-1">
+            <place xml:id="place-264" source="bib264-1" type="reduccion">
                <placeName xml:id="name264-1" full="yes" type="standardized">San Miguel de Charamba</placeName>
                <placeName xml:id="name264-2" type="standardized-Spanish">San Miguel de</placeName>
                <placeName xml:id="name264-3" type="standardized-Andean">Charamba</placeName>
@@ -77,14 +77,11 @@
                   <geo>-13 57 40.11840 -073 36 28.29960</geo>
                </location>
                <note>Maybe. Coordinates from: http://en.wikipedia.org/wiki/San_Miguel_de_Chaccrapampa_District -</note>
-               <bibl xml:id="bib264-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">169</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib264-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">169</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/169/mode/2up"/></bibl>
                <bibl xml:id="bib264-3">
                   <title>AGI Lima 464</title>
                </bibl>

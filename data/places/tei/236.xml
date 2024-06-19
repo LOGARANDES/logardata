@@ -43,13 +43,14 @@
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-04-10-04:00">Updated: update coordinates</change>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-236" source="bib236-1">
+            <place xml:id="place-236" source="bib236-1" type="reduccion">
                <placeName xml:id="name236-1" full="yes" type="standardized">Villa de los Reyes</placeName>
                <placeName xml:id="name236-2" type="standardized-Spanish">Villa de</placeName>
                <placeName xml:id="name236-4" type="verbatim">villa de los rreyes</placeName>
@@ -70,19 +71,18 @@
                   <settlement type="pueblo">Abancay</settlement>
                </location>
                <location type="gps">
-                  <geo>-13.60727756 -72.84007569</geo>
+                  <geo>-13.63735187 -72.87888772</geo>
                </location>
+               <!--
                <location>
                   <geo>-13 36 26.20080 -072 50 24.27360</geo>
                </location>
-               <bibl xml:id="bib236-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">167</citedRange>
-               </bibl>
+               -->
+               
                <bibl xml:id="bib236-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">167</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/167/mode/2up"/></bibl>
                <bibl xml:id="bib236-3">
                   <title>AGI Lima 464</title>
                </bibl>

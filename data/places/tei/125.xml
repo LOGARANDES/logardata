@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-125" source="bib125-1">
+            <place xml:id="place-125" source="bib125-1" type="reduccion">
                <placeName xml:id="name125-1" full="yes" type="standardized">San Bartolome</placeName>
                <placeName xml:id="name125-2" type="standardized-Spanish">San Bartolome</placeName>
                <placeName xml:id="name125-4" type="verbatim">san bartolome</placeName>
@@ -79,14 +79,11 @@
                   <geo>-11 06 30.71520 -077 36 37.31400</geo>
                </location>
                <note>Use Huacho instead (capital of Huaura prov.): http://es.wikipedia.org/wiki/Huacho: "La gente de los caciques: Hualmay, Chontac, Huaura, fueron reunidos en terrenos pertenecientes al gran cacique Huacho, como aldea. El 24 de Agosto de 1571 se le bautizo c</note>
-               <bibl xml:id="bib125-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">197</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib125-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">197</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/197/mode/2up"/></bibl>
                <bibl xml:id="bib125-3">
                   <title>AGI Lima 464</title>
                </bibl>

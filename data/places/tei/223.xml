@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-223" source="bib223-1">
+            <place xml:id="place-223" source="bib223-1" type="reduccion">
                <placeName xml:id="name223-1" full="yes" type="standardized">Escalonilla del valle de Pisac</placeName>
                <placeName xml:id="name223-2" type="standardized-Spanish">Escalonilla de</placeName>
                <placeName xml:id="name223-3" type="standardized-Andean">Pisac</placeName>
@@ -76,14 +76,11 @@
                <location>
                   <geo>-13 25 15.51360 -071 51 01.78200</geo>
                </location>
-               <bibl xml:id="bib223-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">167</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib223-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">167</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/167/mode/2up"/></bibl>
                <bibl xml:id="bib223-3">
                   <title>AGI Lima 464</title>
                </bibl>

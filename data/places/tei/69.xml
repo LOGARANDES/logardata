@@ -44,12 +44,12 @@
       </encodingDesc>
       <revisionDesc>
          <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2016-05-09-04:00">CREATED: place record</change>
-      </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add type reduccion</change><change who="http://syriaca.org/documentation/editors.xml#wsalesky" n="1.0" when="2024-05-09-04:00">Update: add tei:ptr to Levillier bibl</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-69" source="bib69-1">
+            <place xml:id="place-69" source="bib69-1" type="reduccion">
                <placeName xml:id="name69-1" full="yes" type="standardized">San Pablo de Piscobamba</placeName>
                <placeName xml:id="name69-2" type="standardized-Spanish">San Pablo de</placeName>
                <placeName xml:id="name69-3" type="standardized-Andean">Piscobamba</placeName>
@@ -77,14 +77,11 @@
                   <geo>-08 51 54.10080 -077 21 26.51040</geo>
                </location>
                <note>This could be San Pedro y San Pablo de Piscobamba, but then there would be two reducciones, not three as specified</note>
-               <bibl xml:id="bib69-1">
-                  <title>Levillier 1921-26 v9</title>
-                  <citedRange unit="pp">200</citedRange>
-               </bibl>
+               
                <bibl xml:id="bib69-2">
                   <title>Levillier 1921-26 v9</title>
                   <citedRange unit="pp">200</citedRange>
-               </bibl>
+               <ptr target="https://archive.org/details/gobernantesdelpe09peru/page/200/mode/2up"/></bibl>
                <bibl xml:id="bib69-3">
                   <title>AGI Lima 464</title>
                </bibl>
